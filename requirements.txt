@@ -1,0 +1,9 @@
+argon2-cffi>=23.1.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+matplotlib>=3.6.0
+reportlab>=4.0.0
+joblib>=1.2.0
+shap>=0.41.0
+PySide6>=6.5.0

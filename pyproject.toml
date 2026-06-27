@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cbc_xai"
+version = "0.1.0"
+description = "A research prototype for explaining Competency-Based Curriculum (CBC) pathway recommendations."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "titus-gitau" }
+]
+dependencies = [
+    "argon2-cffi>=23.1.0",
+    "joblib>=1.2.0",
+    "matplotlib>=3.6.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "pyside6>=6.5.0",
+    "reportlab>=4.0.0",
+    "scikit-learn>=1.2.0",
+    "shap>=0.41.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.3.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.1.0",
+    "pre-commit>=3.3.0",
+]
+
+[project.scripts]
+cbc-xai = "cbc_xai.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "W",   # pycodestyle warnings
+    "C90", # mccabe
+    "I",   # isort
+    "N",   # pep8-naming
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "BLE", # flake8-blind-except
+    "PT",  # flake8-pytest-style
+]
+ignore = ["E501"] # Line length handled by formatter
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
