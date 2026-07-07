@@ -2,7 +2,7 @@
 
 **A desktop application prototype investigating transparent machine learning for the Kenyan Competency-Based Curriculum (CBC) pathway selection.**
 
-> [!WARNING]
+> [please note]
 > **Research Prototype**
 > This system was built for a final-year academic project. It is designed to operate on **synthetic, generated data** to demonstrate how Explainable AI (XAI) can support teacher-parent guidance conversations. It is **not** suitable for live deployment in schools to make automated placement decisions.
 
@@ -23,7 +23,7 @@ As the Kenyan education system transitions to the Competency-Based Curriculum (C
 - **PDF Reporting:** Generates printable, A4 guidance reports for academic clinics and parent-teacher meetings.
 - **Local Security:** Argon2id password hashing and SQLite foreign-key enforcement protect local application data.
 
-## 🚀 Quickstart Guide
+## Quickstart Guide
 
 Follow these steps to get the project running on your local machine.
 
@@ -76,9 +76,6 @@ python run_app.py
 # Option 2: Running the module directly
 python -m cbc_xai.app
 
-# Option 3: Using the installed console script
-cbc-xai
-```
 
 ### 4. Log In
 
@@ -87,9 +84,7 @@ On first launch, the system automatically creates a default administrator accoun
 - **Username:** `admin`
 - **Password:** `Admin@123`
 
-*(Note: The system will prompt you to change this password immediately upon your first login for security purposes).*
-
-## 🧪 Development & Testing
+## Development & Testing
 
 The project uses `pytest` for the test suite, `ruff` for linting and formatting, and `pre-commit` hooks.
 
@@ -119,6 +114,11 @@ ruff format --check .
 - `tests/`: Comprehensive Pytest suite covering core logic and edge cases.
 - `data/`: Default location for generated CSV assessment datasets.
 - `artifacts/`: Ignored directory where generated models, SHAP charts, PDF reports, and the SQLite database (`cbc_xai.db`) are stored.
+
+## Acknowledgments
+- Built using PySide6, scikit-learn, and the SHAP library.
+- Generative AI tools were used during development to accelerate UI scaffolding, assist with test generation, and act as a pair-programming partner. All core architecture, domain logic, and final code audits were performed manually.
+
 
 ## 📄 License
 

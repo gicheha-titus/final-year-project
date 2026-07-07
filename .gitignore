@@ -38,3 +38,11 @@ artifacts/
 .coverage
 htmlcov/
 pytest.xml
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.agents/
+
+# Outputs
+output/

@@ -1,541 +1,541 @@
 learner_id,learner_name,grade,term,subject,score,assessment_date
-L001,George Oloo,Grade 7,Term 1,English,80.65,2023-04-15
-L001,George Oloo,Grade 7,Term 1,Kiswahili or Kenyan Sign Language,61.11,2023-04-15
-L001,George Oloo,Grade 7,Term 1,Mathematics,78.12,2023-04-15
-L001,George Oloo,Grade 7,Term 1,Integrated Science,74.33,2023-04-15
-L001,George Oloo,Grade 7,Term 1,Health Education,69.86,2023-04-15
-L001,George Oloo,Grade 7,Term 1,Social Studies,67.77,2023-04-15
-L001,George Oloo,Grade 7,Term 1,Religious Education,70.14,2023-04-15
-L001,George Oloo,Grade 7,Term 1,Pre-Technical and Pre-Career Education,67.83,2023-04-15
-L001,George Oloo,Grade 7,Term 1,Agriculture,71.96,2023-04-15
-L001,George Oloo,Grade 7,Term 1,Business Studies,67.6,2023-04-15
-L001,George Oloo,Grade 7,Term 1,Life Skills Education,71.26,2023-04-15
-L001,George Oloo,Grade 7,Term 1,Sports and Physical Education,73.36,2023-04-15
-L001,George Oloo,Grade 7,Term 2,English,81.54,2023-08-15
-L001,George Oloo,Grade 7,Term 2,Kiswahili or Kenyan Sign Language,69.94,2023-08-15
-L001,George Oloo,Grade 7,Term 2,Mathematics,76.2,2023-08-15
-L001,George Oloo,Grade 7,Term 2,Integrated Science,78.48,2023-08-15
-L001,George Oloo,Grade 7,Term 2,Health Education,71.29,2023-08-15
-L001,George Oloo,Grade 7,Term 2,Social Studies,73.0,2023-08-15
-L001,George Oloo,Grade 7,Term 2,Religious Education,69.58,2023-08-15
-L001,George Oloo,Grade 7,Term 2,Pre-Technical and Pre-Career Education,71.88,2023-08-15
-L001,George Oloo,Grade 7,Term 2,Agriculture,81.42,2023-08-15
-L001,George Oloo,Grade 7,Term 2,Business Studies,73.76,2023-08-15
-L001,George Oloo,Grade 7,Term 2,Life Skills Education,70.54,2023-08-15
-L001,George Oloo,Grade 7,Term 2,Sports and Physical Education,68.08,2023-08-15
-L001,George Oloo,Grade 7,Term 3,English,76.09,2023-11-20
-L001,George Oloo,Grade 7,Term 3,Kiswahili or Kenyan Sign Language,65.97,2023-11-20
-L001,George Oloo,Grade 7,Term 3,Mathematics,72.22,2023-11-20
-L001,George Oloo,Grade 7,Term 3,Integrated Science,71.46,2023-11-20
-L001,George Oloo,Grade 7,Term 3,Health Education,69.25,2023-11-20
-L001,George Oloo,Grade 7,Term 3,Social Studies,70.86,2023-11-20
-L001,George Oloo,Grade 7,Term 3,Religious Education,68.3,2023-11-20
-L001,George Oloo,Grade 7,Term 3,Pre-Technical and Pre-Career Education,70.03,2023-11-20
-L001,George Oloo,Grade 7,Term 3,Agriculture,77.01,2023-11-20
-L001,George Oloo,Grade 7,Term 3,Business Studies,70.59,2023-11-20
-L001,George Oloo,Grade 7,Term 3,Life Skills Education,66.57,2023-11-20
-L001,George Oloo,Grade 7,Term 3,Sports and Physical Education,78.74,2023-11-20
-L001,George Oloo,Grade 8,Term 1,English,81.62,2024-04-15
-L001,George Oloo,Grade 8,Term 1,Kiswahili or Kenyan Sign Language,70.36,2024-04-15
-L001,George Oloo,Grade 8,Term 1,Mathematics,74.26,2024-04-15
-L001,George Oloo,Grade 8,Term 1,Integrated Science,78.04,2024-04-15
-L001,George Oloo,Grade 8,Term 1,Health Education,70.95,2024-04-15
-L001,George Oloo,Grade 8,Term 1,Social Studies,72.85,2024-04-15
-L001,George Oloo,Grade 8,Term 1,Religious Education,73.03,2024-04-15
-L001,George Oloo,Grade 8,Term 1,Pre-Technical and Pre-Career Education,74.0,2024-04-15
-L001,George Oloo,Grade 8,Term 1,Agriculture,80.07,2024-04-15
-L001,George Oloo,Grade 8,Term 1,Business Studies,76.69,2024-04-15
-L001,George Oloo,Grade 8,Term 1,Life Skills Education,73.75,2024-04-15
-L001,George Oloo,Grade 8,Term 1,Sports and Physical Education,77.83,2024-04-15
-L001,George Oloo,Grade 8,Term 2,English,77.93,2024-08-15
-L001,George Oloo,Grade 8,Term 2,Kiswahili or Kenyan Sign Language,64.89,2024-08-15
-L001,George Oloo,Grade 8,Term 2,Mathematics,76.89,2024-08-15
-L001,George Oloo,Grade 8,Term 2,Integrated Science,74.09,2024-08-15
-L001,George Oloo,Grade 8,Term 2,Health Education,72.49,2024-08-15
-L001,George Oloo,Grade 8,Term 2,Social Studies,79.93,2024-08-15
-L001,George Oloo,Grade 8,Term 2,Religious Education,72.64,2024-08-15
-L001,George Oloo,Grade 8,Term 2,Pre-Technical and Pre-Career Education,71.36,2024-08-15
-L001,George Oloo,Grade 8,Term 2,Agriculture,82.15,2024-08-15
-L001,George Oloo,Grade 8,Term 2,Business Studies,74.38,2024-08-15
-L001,George Oloo,Grade 8,Term 2,Life Skills Education,75.38,2024-08-15
-L001,George Oloo,Grade 8,Term 2,Sports and Physical Education,75.2,2024-08-15
-L001,George Oloo,Grade 8,Term 3,English,79.24,2024-11-20
-L001,George Oloo,Grade 8,Term 3,Kiswahili or Kenyan Sign Language,68.12,2024-11-20
-L001,George Oloo,Grade 8,Term 3,Mathematics,80.64,2024-11-20
-L001,George Oloo,Grade 8,Term 3,Integrated Science,75.16,2024-11-20
-L001,George Oloo,Grade 8,Term 3,Health Education,77.61,2024-11-20
-L001,George Oloo,Grade 8,Term 3,Social Studies,80.3,2024-11-20
-L001,George Oloo,Grade 8,Term 3,Religious Education,68.24,2024-11-20
-L001,George Oloo,Grade 8,Term 3,Pre-Technical and Pre-Career Education,71.26,2024-11-20
-L001,George Oloo,Grade 8,Term 3,Agriculture,86.91,2024-11-20
-L001,George Oloo,Grade 8,Term 3,Business Studies,76.51,2024-11-20
-L001,George Oloo,Grade 8,Term 3,Life Skills Education,67.17,2024-11-20
-L001,George Oloo,Grade 8,Term 3,Sports and Physical Education,71.53,2024-11-20
-L001,George Oloo,Grade 9,Term 1,English,78.45,2025-04-15
-L001,George Oloo,Grade 9,Term 1,Kiswahili or Kenyan Sign Language,73.18,2025-04-15
-L001,George Oloo,Grade 9,Term 1,Mathematics,84.21,2025-04-15
-L001,George Oloo,Grade 9,Term 1,Integrated Science,78.04,2025-04-15
-L001,George Oloo,Grade 9,Term 1,Health Education,72.89,2025-04-15
-L001,George Oloo,Grade 9,Term 1,Social Studies,75.5,2025-04-15
-L001,George Oloo,Grade 9,Term 1,Religious Education,75.65,2025-04-15
-L001,George Oloo,Grade 9,Term 1,Pre-Technical and Pre-Career Education,75.61,2025-04-15
-L001,George Oloo,Grade 9,Term 1,Agriculture,87.62,2025-04-15
-L001,George Oloo,Grade 9,Term 1,Business Studies,81.24,2025-04-15
-L001,George Oloo,Grade 9,Term 1,Life Skills Education,67.14,2025-04-15
-L001,George Oloo,Grade 9,Term 1,Sports and Physical Education,79.8,2025-04-15
-L001,George Oloo,Grade 9,Term 2,English,85.66,2025-08-15
-L001,George Oloo,Grade 9,Term 2,Kiswahili or Kenyan Sign Language,73.06,2025-08-15
-L001,George Oloo,Grade 9,Term 2,Mathematics,79.48,2025-08-15
-L001,George Oloo,Grade 9,Term 2,Integrated Science,81.57,2025-08-15
-L001,George Oloo,Grade 9,Term 2,Health Education,74.43,2025-08-15
-L001,George Oloo,Grade 9,Term 2,Social Studies,76.96,2025-08-15
-L001,George Oloo,Grade 9,Term 2,Religious Education,70.52,2025-08-15
-L001,George Oloo,Grade 9,Term 2,Pre-Technical and Pre-Career Education,81.22,2025-08-15
-L001,George Oloo,Grade 9,Term 2,Agriculture,87.57,2025-08-15
-L001,George Oloo,Grade 9,Term 2,Business Studies,75.55,2025-08-15
-L001,George Oloo,Grade 9,Term 2,Life Skills Education,73.37,2025-08-15
-L001,George Oloo,Grade 9,Term 2,Sports and Physical Education,74.7,2025-08-15
-L001,George Oloo,Grade 9,Term 3,English,89.11,2025-11-20
-L001,George Oloo,Grade 9,Term 3,Kiswahili or Kenyan Sign Language,77.6,2025-11-20
-L001,George Oloo,Grade 9,Term 3,Mathematics,80.86,2025-11-20
-L001,George Oloo,Grade 9,Term 3,Integrated Science,82.67,2025-11-20
-L001,George Oloo,Grade 9,Term 3,Health Education,80.92,2025-11-20
-L001,George Oloo,Grade 9,Term 3,Social Studies,74.73,2025-11-20
-L001,George Oloo,Grade 9,Term 3,Religious Education,74.77,2025-11-20
-L001,George Oloo,Grade 9,Term 3,Pre-Technical and Pre-Career Education,77.61,2025-11-20
-L001,George Oloo,Grade 9,Term 3,Agriculture,87.5,2025-11-20
-L001,George Oloo,Grade 9,Term 3,Business Studies,79.36,2025-11-20
-L001,George Oloo,Grade 9,Term 3,Life Skills Education,68.71,2025-11-20
-L001,George Oloo,Grade 9,Term 3,Sports and Physical Education,77.16,2025-11-20
-L002,Michael Wanjiku,Grade 7,Term 1,English,64.9,2023-04-15
-L002,Michael Wanjiku,Grade 7,Term 1,Kiswahili or Kenyan Sign Language,52.75,2023-04-15
-L002,Michael Wanjiku,Grade 7,Term 1,Mathematics,56.93,2023-04-15
-L002,Michael Wanjiku,Grade 7,Term 1,Integrated Science,58.87,2023-04-15
-L002,Michael Wanjiku,Grade 7,Term 1,Health Education,60.77,2023-04-15
-L002,Michael Wanjiku,Grade 7,Term 1,Social Studies,52.07,2023-04-15
-L002,Michael Wanjiku,Grade 7,Term 1,Religious Education,57.65,2023-04-15
-L002,Michael Wanjiku,Grade 7,Term 1,Pre-Technical and Pre-Career Education,60.74,2023-04-15
-L002,Michael Wanjiku,Grade 7,Term 1,Agriculture,61.53,2023-04-15
-L002,Michael Wanjiku,Grade 7,Term 1,Business Studies,51.34,2023-04-15
-L002,Michael Wanjiku,Grade 7,Term 1,Life Skills Education,49.1,2023-04-15
-L002,Michael Wanjiku,Grade 7,Term 1,Sports and Physical Education,52.93,2023-04-15
-L002,Michael Wanjiku,Grade 7,Term 2,English,64.66,2023-08-15
-L002,Michael Wanjiku,Grade 7,Term 2,Kiswahili or Kenyan Sign Language,56.17,2023-08-15
-L002,Michael Wanjiku,Grade 7,Term 2,Mathematics,54.21,2023-08-15
-L002,Michael Wanjiku,Grade 7,Term 2,Integrated Science,53.27,2023-08-15
-L002,Michael Wanjiku,Grade 7,Term 2,Health Education,50.69,2023-08-15
-L002,Michael Wanjiku,Grade 7,Term 2,Social Studies,48.21,2023-08-15
-L002,Michael Wanjiku,Grade 7,Term 2,Religious Education,56.07,2023-08-15
-L002,Michael Wanjiku,Grade 7,Term 2,Pre-Technical and Pre-Career Education,53.52,2023-08-15
-L002,Michael Wanjiku,Grade 7,Term 2,Agriculture,61.76,2023-08-15
-L002,Michael Wanjiku,Grade 7,Term 2,Business Studies,47.86,2023-08-15
-L002,Michael Wanjiku,Grade 7,Term 2,Life Skills Education,42.71,2023-08-15
-L002,Michael Wanjiku,Grade 7,Term 2,Sports and Physical Education,49.43,2023-08-15
-L002,Michael Wanjiku,Grade 7,Term 3,English,58.69,2023-11-20
-L002,Michael Wanjiku,Grade 7,Term 3,Kiswahili or Kenyan Sign Language,57.13,2023-11-20
-L002,Michael Wanjiku,Grade 7,Term 3,Mathematics,54.91,2023-11-20
-L002,Michael Wanjiku,Grade 7,Term 3,Integrated Science,58.28,2023-11-20
-L002,Michael Wanjiku,Grade 7,Term 3,Health Education,56.69,2023-11-20
-L002,Michael Wanjiku,Grade 7,Term 3,Social Studies,50.34,2023-11-20
-L002,Michael Wanjiku,Grade 7,Term 3,Religious Education,59.57,2023-11-20
-L002,Michael Wanjiku,Grade 7,Term 3,Pre-Technical and Pre-Career Education,60.08,2023-11-20
-L002,Michael Wanjiku,Grade 7,Term 3,Agriculture,56.92,2023-11-20
-L002,Michael Wanjiku,Grade 7,Term 3,Business Studies,52.68,2023-11-20
-L002,Michael Wanjiku,Grade 7,Term 3,Life Skills Education,46.71,2023-11-20
-L002,Michael Wanjiku,Grade 7,Term 3,Sports and Physical Education,50.39,2023-11-20
-L002,Michael Wanjiku,Grade 8,Term 1,English,62.59,2024-04-15
-L002,Michael Wanjiku,Grade 8,Term 1,Kiswahili or Kenyan Sign Language,55.65,2024-04-15
-L002,Michael Wanjiku,Grade 8,Term 1,Mathematics,56.72,2024-04-15
-L002,Michael Wanjiku,Grade 8,Term 1,Integrated Science,62.81,2024-04-15
-L002,Michael Wanjiku,Grade 8,Term 1,Health Education,51.65,2024-04-15
-L002,Michael Wanjiku,Grade 8,Term 1,Social Studies,49.84,2024-04-15
-L002,Michael Wanjiku,Grade 8,Term 1,Religious Education,57.23,2024-04-15
-L002,Michael Wanjiku,Grade 8,Term 1,Pre-Technical and Pre-Career Education,54.7,2024-04-15
-L002,Michael Wanjiku,Grade 8,Term 1,Agriculture,62.54,2024-04-15
-L002,Michael Wanjiku,Grade 8,Term 1,Business Studies,56.54,2024-04-15
-L002,Michael Wanjiku,Grade 8,Term 1,Life Skills Education,43.69,2024-04-15
-L002,Michael Wanjiku,Grade 8,Term 1,Sports and Physical Education,51.73,2024-04-15
-L002,Michael Wanjiku,Grade 8,Term 2,English,61.53,2024-08-15
-L002,Michael Wanjiku,Grade 8,Term 2,Kiswahili or Kenyan Sign Language,53.56,2024-08-15
-L002,Michael Wanjiku,Grade 8,Term 2,Mathematics,54.57,2024-08-15
-L002,Michael Wanjiku,Grade 8,Term 2,Integrated Science,58.76,2024-08-15
-L002,Michael Wanjiku,Grade 8,Term 2,Health Education,60.97,2024-08-15
-L002,Michael Wanjiku,Grade 8,Term 2,Social Studies,43.75,2024-08-15
-L002,Michael Wanjiku,Grade 8,Term 2,Religious Education,59.28,2024-08-15
-L002,Michael Wanjiku,Grade 8,Term 2,Pre-Technical and Pre-Career Education,63.75,2024-08-15
-L002,Michael Wanjiku,Grade 8,Term 2,Agriculture,55.89,2024-08-15
-L002,Michael Wanjiku,Grade 8,Term 2,Business Studies,55.17,2024-08-15
-L002,Michael Wanjiku,Grade 8,Term 2,Life Skills Education,48.69,2024-08-15
-L002,Michael Wanjiku,Grade 8,Term 2,Sports and Physical Education,50.05,2024-08-15
-L002,Michael Wanjiku,Grade 8,Term 3,English,56.94,2024-11-20
-L002,Michael Wanjiku,Grade 8,Term 3,Kiswahili or Kenyan Sign Language,60.58,2024-11-20
-L002,Michael Wanjiku,Grade 8,Term 3,Mathematics,55.51,2024-11-20
-L002,Michael Wanjiku,Grade 8,Term 3,Integrated Science,58.52,2024-11-20
-L002,Michael Wanjiku,Grade 8,Term 3,Health Education,56.94,2024-11-20
-L002,Michael Wanjiku,Grade 8,Term 3,Social Studies,52.69,2024-11-20
-L002,Michael Wanjiku,Grade 8,Term 3,Religious Education,60.58,2024-11-20
-L002,Michael Wanjiku,Grade 8,Term 3,Pre-Technical and Pre-Career Education,56.44,2024-11-20
-L002,Michael Wanjiku,Grade 8,Term 3,Agriculture,55.11,2024-11-20
-L002,Michael Wanjiku,Grade 8,Term 3,Business Studies,52.55,2024-11-20
-L002,Michael Wanjiku,Grade 8,Term 3,Life Skills Education,53.2,2024-11-20
-L002,Michael Wanjiku,Grade 8,Term 3,Sports and Physical Education,58.79,2024-11-20
-L002,Michael Wanjiku,Grade 9,Term 1,English,59.34,2025-04-15
-L002,Michael Wanjiku,Grade 9,Term 1,Kiswahili or Kenyan Sign Language,60.22,2025-04-15
-L002,Michael Wanjiku,Grade 9,Term 1,Mathematics,61.31,2025-04-15
-L002,Michael Wanjiku,Grade 9,Term 1,Integrated Science,63.03,2025-04-15
-L002,Michael Wanjiku,Grade 9,Term 1,Health Education,59.22,2025-04-15
-L002,Michael Wanjiku,Grade 9,Term 1,Social Studies,48.8,2025-04-15
-L002,Michael Wanjiku,Grade 9,Term 1,Religious Education,53.0,2025-04-15
-L002,Michael Wanjiku,Grade 9,Term 1,Pre-Technical and Pre-Career Education,57.32,2025-04-15
-L002,Michael Wanjiku,Grade 9,Term 1,Agriculture,56.01,2025-04-15
-L002,Michael Wanjiku,Grade 9,Term 1,Business Studies,56.61,2025-04-15
-L002,Michael Wanjiku,Grade 9,Term 1,Life Skills Education,43.93,2025-04-15
-L002,Michael Wanjiku,Grade 9,Term 1,Sports and Physical Education,53.87,2025-04-15
-L002,Michael Wanjiku,Grade 9,Term 2,English,57.05,2025-08-15
-L002,Michael Wanjiku,Grade 9,Term 2,Kiswahili or Kenyan Sign Language,58.08,2025-08-15
-L002,Michael Wanjiku,Grade 9,Term 2,Mathematics,63.74,2025-08-15
-L002,Michael Wanjiku,Grade 9,Term 2,Integrated Science,60.63,2025-08-15
-L002,Michael Wanjiku,Grade 9,Term 2,Health Education,52.87,2025-08-15
-L002,Michael Wanjiku,Grade 9,Term 2,Social Studies,49.3,2025-08-15
-L002,Michael Wanjiku,Grade 9,Term 2,Religious Education,60.54,2025-08-15
-L002,Michael Wanjiku,Grade 9,Term 2,Pre-Technical and Pre-Career Education,55.98,2025-08-15
-L002,Michael Wanjiku,Grade 9,Term 2,Agriculture,56.39,2025-08-15
-L002,Michael Wanjiku,Grade 9,Term 2,Business Studies,58.26,2025-08-15
-L002,Michael Wanjiku,Grade 9,Term 2,Life Skills Education,47.96,2025-08-15
-L002,Michael Wanjiku,Grade 9,Term 2,Sports and Physical Education,61.04,2025-08-15
-L002,Michael Wanjiku,Grade 9,Term 3,English,63.05,2025-11-20
-L002,Michael Wanjiku,Grade 9,Term 3,Kiswahili or Kenyan Sign Language,59.47,2025-11-20
-L002,Michael Wanjiku,Grade 9,Term 3,Mathematics,54.42,2025-11-20
-L002,Michael Wanjiku,Grade 9,Term 3,Integrated Science,56.06,2025-11-20
-L002,Michael Wanjiku,Grade 9,Term 3,Health Education,59.77,2025-11-20
-L002,Michael Wanjiku,Grade 9,Term 3,Social Studies,50.2,2025-11-20
-L002,Michael Wanjiku,Grade 9,Term 3,Religious Education,54.91,2025-11-20
-L002,Michael Wanjiku,Grade 9,Term 3,Pre-Technical and Pre-Career Education,58.39,2025-11-20
-L002,Michael Wanjiku,Grade 9,Term 3,Agriculture,63.29,2025-11-20
-L002,Michael Wanjiku,Grade 9,Term 3,Business Studies,52.5,2025-11-20
-L002,Michael Wanjiku,Grade 9,Term 3,Life Skills Education,46.7,2025-11-20
-L002,Michael Wanjiku,Grade 9,Term 3,Sports and Physical Education,52.39,2025-11-20
-L003,Jessica Kamau,Grade 7,Term 1,English,59.76,2023-04-15
-L003,Jessica Kamau,Grade 7,Term 1,Kiswahili or Kenyan Sign Language,58.34,2023-04-15
-L003,Jessica Kamau,Grade 7,Term 1,Mathematics,61.54,2023-04-15
-L003,Jessica Kamau,Grade 7,Term 1,Integrated Science,69.11,2023-04-15
-L003,Jessica Kamau,Grade 7,Term 1,Health Education,73.21,2023-04-15
-L003,Jessica Kamau,Grade 7,Term 1,Social Studies,56.37,2023-04-15
-L003,Jessica Kamau,Grade 7,Term 1,Religious Education,49.54,2023-04-15
-L003,Jessica Kamau,Grade 7,Term 1,Pre-Technical and Pre-Career Education,58.72,2023-04-15
-L003,Jessica Kamau,Grade 7,Term 1,Agriculture,61.04,2023-04-15
-L003,Jessica Kamau,Grade 7,Term 1,Business Studies,64.07,2023-04-15
-L003,Jessica Kamau,Grade 7,Term 1,Life Skills Education,69.88,2023-04-15
-L003,Jessica Kamau,Grade 7,Term 1,Sports and Physical Education,57.01,2023-04-15
-L003,Jessica Kamau,Grade 7,Term 2,English,59.49,2023-08-15
-L003,Jessica Kamau,Grade 7,Term 2,Kiswahili or Kenyan Sign Language,50.54,2023-08-15
-L003,Jessica Kamau,Grade 7,Term 2,Mathematics,60.08,2023-08-15
-L003,Jessica Kamau,Grade 7,Term 2,Integrated Science,65.59,2023-08-15
-L003,Jessica Kamau,Grade 7,Term 2,Health Education,69.22,2023-08-15
-L003,Jessica Kamau,Grade 7,Term 2,Social Studies,57.26,2023-08-15
-L003,Jessica Kamau,Grade 7,Term 2,Religious Education,51.88,2023-08-15
-L003,Jessica Kamau,Grade 7,Term 2,Pre-Technical and Pre-Career Education,56.89,2023-08-15
-L003,Jessica Kamau,Grade 7,Term 2,Agriculture,60.83,2023-08-15
-L003,Jessica Kamau,Grade 7,Term 2,Business Studies,62.32,2023-08-15
-L003,Jessica Kamau,Grade 7,Term 2,Life Skills Education,69.71,2023-08-15
-L003,Jessica Kamau,Grade 7,Term 2,Sports and Physical Education,65.06,2023-08-15
-L003,Jessica Kamau,Grade 7,Term 3,English,59.43,2023-11-20
-L003,Jessica Kamau,Grade 7,Term 3,Kiswahili or Kenyan Sign Language,54.21,2023-11-20
-L003,Jessica Kamau,Grade 7,Term 3,Mathematics,57.23,2023-11-20
-L003,Jessica Kamau,Grade 7,Term 3,Integrated Science,62.84,2023-11-20
-L003,Jessica Kamau,Grade 7,Term 3,Health Education,71.25,2023-11-20
-L003,Jessica Kamau,Grade 7,Term 3,Social Studies,56.57,2023-11-20
-L003,Jessica Kamau,Grade 7,Term 3,Religious Education,52.7,2023-11-20
-L003,Jessica Kamau,Grade 7,Term 3,Pre-Technical and Pre-Career Education,58.24,2023-11-20
-L003,Jessica Kamau,Grade 7,Term 3,Agriculture,64.17,2023-11-20
-L003,Jessica Kamau,Grade 7,Term 3,Business Studies,61.82,2023-11-20
-L003,Jessica Kamau,Grade 7,Term 3,Life Skills Education,60.05,2023-11-20
-L003,Jessica Kamau,Grade 7,Term 3,Sports and Physical Education,56.79,2023-11-20
-L003,Jessica Kamau,Grade 8,Term 1,English,68.33,2024-04-15
-L003,Jessica Kamau,Grade 8,Term 1,Kiswahili or Kenyan Sign Language,59.69,2024-04-15
-L003,Jessica Kamau,Grade 8,Term 1,Mathematics,60.38,2024-04-15
-L003,Jessica Kamau,Grade 8,Term 1,Integrated Science,72.19,2024-04-15
-L003,Jessica Kamau,Grade 8,Term 1,Health Education,69.39,2024-04-15
-L003,Jessica Kamau,Grade 8,Term 1,Social Studies,51.38,2024-04-15
-L003,Jessica Kamau,Grade 8,Term 1,Religious Education,51.4,2024-04-15
-L003,Jessica Kamau,Grade 8,Term 1,Pre-Technical and Pre-Career Education,53.66,2024-04-15
-L003,Jessica Kamau,Grade 8,Term 1,Agriculture,68.17,2024-04-15
-L003,Jessica Kamau,Grade 8,Term 1,Business Studies,66.05,2024-04-15
-L003,Jessica Kamau,Grade 8,Term 1,Life Skills Education,69.61,2024-04-15
-L003,Jessica Kamau,Grade 8,Term 1,Sports and Physical Education,66.07,2024-04-15
-L003,Jessica Kamau,Grade 8,Term 2,English,61.12,2024-08-15
-L003,Jessica Kamau,Grade 8,Term 2,Kiswahili or Kenyan Sign Language,52.68,2024-08-15
-L003,Jessica Kamau,Grade 8,Term 2,Mathematics,55.7,2024-08-15
-L003,Jessica Kamau,Grade 8,Term 2,Integrated Science,71.8,2024-08-15
-L003,Jessica Kamau,Grade 8,Term 2,Health Education,72.92,2024-08-15
-L003,Jessica Kamau,Grade 8,Term 2,Social Studies,54.42,2024-08-15
-L003,Jessica Kamau,Grade 8,Term 2,Religious Education,57.01,2024-08-15
-L003,Jessica Kamau,Grade 8,Term 2,Pre-Technical and Pre-Career Education,52.14,2024-08-15
-L003,Jessica Kamau,Grade 8,Term 2,Agriculture,68.69,2024-08-15
-L003,Jessica Kamau,Grade 8,Term 2,Business Studies,66.98,2024-08-15
-L003,Jessica Kamau,Grade 8,Term 2,Life Skills Education,71.08,2024-08-15
-L003,Jessica Kamau,Grade 8,Term 2,Sports and Physical Education,65.31,2024-08-15
-L003,Jessica Kamau,Grade 8,Term 3,English,68.71,2024-11-20
-L003,Jessica Kamau,Grade 8,Term 3,Kiswahili or Kenyan Sign Language,50.4,2024-11-20
-L003,Jessica Kamau,Grade 8,Term 3,Mathematics,62.86,2024-11-20
-L003,Jessica Kamau,Grade 8,Term 3,Integrated Science,67.08,2024-11-20
-L003,Jessica Kamau,Grade 8,Term 3,Health Education,73.64,2024-11-20
-L003,Jessica Kamau,Grade 8,Term 3,Social Studies,58.96,2024-11-20
-L003,Jessica Kamau,Grade 8,Term 3,Religious Education,59.87,2024-11-20
-L003,Jessica Kamau,Grade 8,Term 3,Pre-Technical and Pre-Career Education,59.54,2024-11-20
-L003,Jessica Kamau,Grade 8,Term 3,Agriculture,61.57,2024-11-20
-L003,Jessica Kamau,Grade 8,Term 3,Business Studies,66.31,2024-11-20
-L003,Jessica Kamau,Grade 8,Term 3,Life Skills Education,61.73,2024-11-20
-L003,Jessica Kamau,Grade 8,Term 3,Sports and Physical Education,66.2,2024-11-20
-L003,Jessica Kamau,Grade 9,Term 1,English,68.65,2025-04-15
-L003,Jessica Kamau,Grade 9,Term 1,Kiswahili or Kenyan Sign Language,52.77,2025-04-15
-L003,Jessica Kamau,Grade 9,Term 1,Mathematics,63.93,2025-04-15
-L003,Jessica Kamau,Grade 9,Term 1,Integrated Science,68.7,2025-04-15
-L003,Jessica Kamau,Grade 9,Term 1,Health Education,66.97,2025-04-15
-L003,Jessica Kamau,Grade 9,Term 1,Social Studies,59.08,2025-04-15
-L003,Jessica Kamau,Grade 9,Term 1,Religious Education,53.05,2025-04-15
-L003,Jessica Kamau,Grade 9,Term 1,Pre-Technical and Pre-Career Education,51.06,2025-04-15
-L003,Jessica Kamau,Grade 9,Term 1,Agriculture,60.94,2025-04-15
-L003,Jessica Kamau,Grade 9,Term 1,Business Studies,61.43,2025-04-15
-L003,Jessica Kamau,Grade 9,Term 1,Life Skills Education,70.25,2025-04-15
-L003,Jessica Kamau,Grade 9,Term 1,Sports and Physical Education,67.46,2025-04-15
-L003,Jessica Kamau,Grade 9,Term 2,English,62.48,2025-08-15
-L003,Jessica Kamau,Grade 9,Term 2,Kiswahili or Kenyan Sign Language,57.57,2025-08-15
-L003,Jessica Kamau,Grade 9,Term 2,Mathematics,59.54,2025-08-15
-L003,Jessica Kamau,Grade 9,Term 2,Integrated Science,74.64,2025-08-15
-L003,Jessica Kamau,Grade 9,Term 2,Health Education,69.72,2025-08-15
-L003,Jessica Kamau,Grade 9,Term 2,Social Studies,60.86,2025-08-15
-L003,Jessica Kamau,Grade 9,Term 2,Religious Education,51.99,2025-08-15
-L003,Jessica Kamau,Grade 9,Term 2,Pre-Technical and Pre-Career Education,61.65,2025-08-15
-L003,Jessica Kamau,Grade 9,Term 2,Agriculture,60.96,2025-08-15
-L003,Jessica Kamau,Grade 9,Term 2,Business Studies,68.58,2025-08-15
-L003,Jessica Kamau,Grade 9,Term 2,Life Skills Education,63.86,2025-08-15
-L003,Jessica Kamau,Grade 9,Term 2,Sports and Physical Education,58.23,2025-08-15
-L003,Jessica Kamau,Grade 9,Term 3,English,64.39,2025-11-20
-L003,Jessica Kamau,Grade 9,Term 3,Kiswahili or Kenyan Sign Language,58.72,2025-11-20
-L003,Jessica Kamau,Grade 9,Term 3,Mathematics,58.79,2025-11-20
-L003,Jessica Kamau,Grade 9,Term 3,Integrated Science,70.72,2025-11-20
-L003,Jessica Kamau,Grade 9,Term 3,Health Education,69.65,2025-11-20
-L003,Jessica Kamau,Grade 9,Term 3,Social Studies,54.95,2025-11-20
-L003,Jessica Kamau,Grade 9,Term 3,Religious Education,57.25,2025-11-20
-L003,Jessica Kamau,Grade 9,Term 3,Pre-Technical and Pre-Career Education,53.96,2025-11-20
-L003,Jessica Kamau,Grade 9,Term 3,Agriculture,66.97,2025-11-20
-L003,Jessica Kamau,Grade 9,Term 3,Business Studies,58.19,2025-11-20
-L003,Jessica Kamau,Grade 9,Term 3,Life Skills Education,71.32,2025-11-20
-L003,Jessica Kamau,Grade 9,Term 3,Sports and Physical Education,63.18,2025-11-20
-L004,Linda Akinyi,Grade 7,Term 1,English,76.67,2023-04-15
-L004,Linda Akinyi,Grade 7,Term 1,Kiswahili or Kenyan Sign Language,74.79,2023-04-15
-L004,Linda Akinyi,Grade 7,Term 1,Mathematics,86.21,2023-04-15
-L004,Linda Akinyi,Grade 7,Term 1,Integrated Science,84.83,2023-04-15
-L004,Linda Akinyi,Grade 7,Term 1,Health Education,85.32,2023-04-15
-L004,Linda Akinyi,Grade 7,Term 1,Social Studies,77.38,2023-04-15
-L004,Linda Akinyi,Grade 7,Term 1,Religious Education,73.86,2023-04-15
-L004,Linda Akinyi,Grade 7,Term 1,Pre-Technical and Pre-Career Education,81.03,2023-04-15
-L004,Linda Akinyi,Grade 7,Term 1,Agriculture,81.01,2023-04-15
-L004,Linda Akinyi,Grade 7,Term 1,Business Studies,76.75,2023-04-15
-L004,Linda Akinyi,Grade 7,Term 1,Life Skills Education,74.43,2023-04-15
-L004,Linda Akinyi,Grade 7,Term 1,Sports and Physical Education,87.32,2023-04-15
-L004,Linda Akinyi,Grade 7,Term 2,English,78.33,2023-08-15
-L004,Linda Akinyi,Grade 7,Term 2,Kiswahili or Kenyan Sign Language,77.28,2023-08-15
-L004,Linda Akinyi,Grade 7,Term 2,Mathematics,84.81,2023-08-15
-L004,Linda Akinyi,Grade 7,Term 2,Integrated Science,89.24,2023-08-15
-L004,Linda Akinyi,Grade 7,Term 2,Health Education,83.86,2023-08-15
-L004,Linda Akinyi,Grade 7,Term 2,Social Studies,85.25,2023-08-15
-L004,Linda Akinyi,Grade 7,Term 2,Religious Education,79.15,2023-08-15
-L004,Linda Akinyi,Grade 7,Term 2,Pre-Technical and Pre-Career Education,85.63,2023-08-15
-L004,Linda Akinyi,Grade 7,Term 2,Agriculture,80.06,2023-08-15
-L004,Linda Akinyi,Grade 7,Term 2,Business Studies,77.49,2023-08-15
-L004,Linda Akinyi,Grade 7,Term 2,Life Skills Education,80.51,2023-08-15
-L004,Linda Akinyi,Grade 7,Term 2,Sports and Physical Education,86.66,2023-08-15
-L004,Linda Akinyi,Grade 7,Term 3,English,73.77,2023-11-20
-L004,Linda Akinyi,Grade 7,Term 3,Kiswahili or Kenyan Sign Language,85.26,2023-11-20
-L004,Linda Akinyi,Grade 7,Term 3,Mathematics,83.58,2023-11-20
-L004,Linda Akinyi,Grade 7,Term 3,Integrated Science,86.37,2023-11-20
-L004,Linda Akinyi,Grade 7,Term 3,Health Education,88.25,2023-11-20
-L004,Linda Akinyi,Grade 7,Term 3,Social Studies,79.19,2023-11-20
-L004,Linda Akinyi,Grade 7,Term 3,Religious Education,70.09,2023-11-20
-L004,Linda Akinyi,Grade 7,Term 3,Pre-Technical and Pre-Career Education,89.33,2023-11-20
-L004,Linda Akinyi,Grade 7,Term 3,Agriculture,80.52,2023-11-20
-L004,Linda Akinyi,Grade 7,Term 3,Business Studies,83.78,2023-11-20
-L004,Linda Akinyi,Grade 7,Term 3,Life Skills Education,79.3,2023-11-20
-L004,Linda Akinyi,Grade 7,Term 3,Sports and Physical Education,90.78,2023-11-20
-L004,Linda Akinyi,Grade 8,Term 1,English,80.16,2024-04-15
-L004,Linda Akinyi,Grade 8,Term 1,Kiswahili or Kenyan Sign Language,83.74,2024-04-15
-L004,Linda Akinyi,Grade 8,Term 1,Mathematics,86.28,2024-04-15
-L004,Linda Akinyi,Grade 8,Term 1,Integrated Science,88.49,2024-04-15
-L004,Linda Akinyi,Grade 8,Term 1,Health Education,82.15,2024-04-15
-L004,Linda Akinyi,Grade 8,Term 1,Social Studies,86.19,2024-04-15
-L004,Linda Akinyi,Grade 8,Term 1,Religious Education,80.39,2024-04-15
-L004,Linda Akinyi,Grade 8,Term 1,Pre-Technical and Pre-Career Education,88.95,2024-04-15
-L004,Linda Akinyi,Grade 8,Term 1,Agriculture,84.51,2024-04-15
-L004,Linda Akinyi,Grade 8,Term 1,Business Studies,84.85,2024-04-15
-L004,Linda Akinyi,Grade 8,Term 1,Life Skills Education,77.78,2024-04-15
-L004,Linda Akinyi,Grade 8,Term 1,Sports and Physical Education,91.06,2024-04-15
-L004,Linda Akinyi,Grade 8,Term 2,English,82.56,2024-08-15
-L004,Linda Akinyi,Grade 8,Term 2,Kiswahili or Kenyan Sign Language,82.0,2024-08-15
-L004,Linda Akinyi,Grade 8,Term 2,Mathematics,89.24,2024-08-15
-L004,Linda Akinyi,Grade 8,Term 2,Integrated Science,95.0,2024-08-15
-L004,Linda Akinyi,Grade 8,Term 2,Health Education,83.01,2024-08-15
-L004,Linda Akinyi,Grade 8,Term 2,Social Studies,81.15,2024-08-15
-L004,Linda Akinyi,Grade 8,Term 2,Religious Education,76.67,2024-08-15
-L004,Linda Akinyi,Grade 8,Term 2,Pre-Technical and Pre-Career Education,86.3,2024-08-15
-L004,Linda Akinyi,Grade 8,Term 2,Agriculture,81.89,2024-08-15
-L004,Linda Akinyi,Grade 8,Term 2,Business Studies,80.73,2024-08-15
-L004,Linda Akinyi,Grade 8,Term 2,Life Skills Education,84.77,2024-08-15
-L004,Linda Akinyi,Grade 8,Term 2,Sports and Physical Education,88.26,2024-08-15
-L004,Linda Akinyi,Grade 8,Term 3,English,84.96,2024-11-20
-L004,Linda Akinyi,Grade 8,Term 3,Kiswahili or Kenyan Sign Language,87.76,2024-11-20
-L004,Linda Akinyi,Grade 8,Term 3,Mathematics,88.85,2024-11-20
-L004,Linda Akinyi,Grade 8,Term 3,Integrated Science,95.0,2024-11-20
-L004,Linda Akinyi,Grade 8,Term 3,Health Education,87.73,2024-11-20
-L004,Linda Akinyi,Grade 8,Term 3,Social Studies,82.48,2024-11-20
-L004,Linda Akinyi,Grade 8,Term 3,Religious Education,82.03,2024-11-20
-L004,Linda Akinyi,Grade 8,Term 3,Pre-Technical and Pre-Career Education,86.38,2024-11-20
-L004,Linda Akinyi,Grade 8,Term 3,Agriculture,84.98,2024-11-20
-L004,Linda Akinyi,Grade 8,Term 3,Business Studies,87.44,2024-11-20
-L004,Linda Akinyi,Grade 8,Term 3,Life Skills Education,80.59,2024-11-20
-L004,Linda Akinyi,Grade 8,Term 3,Sports and Physical Education,93.12,2024-11-20
-L004,Linda Akinyi,Grade 9,Term 1,English,82.41,2025-04-15
-L004,Linda Akinyi,Grade 9,Term 1,Kiswahili or Kenyan Sign Language,81.63,2025-04-15
-L004,Linda Akinyi,Grade 9,Term 1,Mathematics,90.05,2025-04-15
-L004,Linda Akinyi,Grade 9,Term 1,Integrated Science,95.0,2025-04-15
-L004,Linda Akinyi,Grade 9,Term 1,Health Education,86.55,2025-04-15
-L004,Linda Akinyi,Grade 9,Term 1,Social Studies,85.48,2025-04-15
-L004,Linda Akinyi,Grade 9,Term 1,Religious Education,83.36,2025-04-15
-L004,Linda Akinyi,Grade 9,Term 1,Pre-Technical and Pre-Career Education,83.29,2025-04-15
-L004,Linda Akinyi,Grade 9,Term 1,Agriculture,79.35,2025-04-15
-L004,Linda Akinyi,Grade 9,Term 1,Business Studies,83.37,2025-04-15
-L004,Linda Akinyi,Grade 9,Term 1,Life Skills Education,80.31,2025-04-15
-L004,Linda Akinyi,Grade 9,Term 1,Sports and Physical Education,88.1,2025-04-15
-L004,Linda Akinyi,Grade 9,Term 2,English,82.73,2025-08-15
-L004,Linda Akinyi,Grade 9,Term 2,Kiswahili or Kenyan Sign Language,83.69,2025-08-15
-L004,Linda Akinyi,Grade 9,Term 2,Mathematics,91.39,2025-08-15
-L004,Linda Akinyi,Grade 9,Term 2,Integrated Science,89.37,2025-08-15
-L004,Linda Akinyi,Grade 9,Term 2,Health Education,94.28,2025-08-15
-L004,Linda Akinyi,Grade 9,Term 2,Social Studies,87.12,2025-08-15
-L004,Linda Akinyi,Grade 9,Term 2,Religious Education,83.0,2025-08-15
-L004,Linda Akinyi,Grade 9,Term 2,Pre-Technical and Pre-Career Education,93.78,2025-08-15
-L004,Linda Akinyi,Grade 9,Term 2,Agriculture,78.88,2025-08-15
-L004,Linda Akinyi,Grade 9,Term 2,Business Studies,89.81,2025-08-15
-L004,Linda Akinyi,Grade 9,Term 2,Life Skills Education,86.04,2025-08-15
-L004,Linda Akinyi,Grade 9,Term 2,Sports and Physical Education,92.17,2025-08-15
-L004,Linda Akinyi,Grade 9,Term 3,English,89.62,2025-11-20
-L004,Linda Akinyi,Grade 9,Term 3,Kiswahili or Kenyan Sign Language,84.39,2025-11-20
-L004,Linda Akinyi,Grade 9,Term 3,Mathematics,91.61,2025-11-20
-L004,Linda Akinyi,Grade 9,Term 3,Integrated Science,95.0,2025-11-20
-L004,Linda Akinyi,Grade 9,Term 3,Health Education,95.0,2025-11-20
-L004,Linda Akinyi,Grade 9,Term 3,Social Studies,89.81,2025-11-20
-L004,Linda Akinyi,Grade 9,Term 3,Religious Education,83.6,2025-11-20
-L004,Linda Akinyi,Grade 9,Term 3,Pre-Technical and Pre-Career Education,93.15,2025-11-20
-L004,Linda Akinyi,Grade 9,Term 3,Agriculture,89.51,2025-11-20
-L004,Linda Akinyi,Grade 9,Term 3,Business Studies,86.45,2025-11-20
-L004,Linda Akinyi,Grade 9,Term 3,Life Skills Education,83.8,2025-11-20
-L004,Linda Akinyi,Grade 9,Term 3,Sports and Physical Education,93.45,2025-11-20
-L005,Mary Chebet,Grade 7,Term 1,English,58.29,2023-04-15
-L005,Mary Chebet,Grade 7,Term 1,Kiswahili or Kenyan Sign Language,58.33,2023-04-15
-L005,Mary Chebet,Grade 7,Term 1,Mathematics,57.32,2023-04-15
-L005,Mary Chebet,Grade 7,Term 1,Integrated Science,53.81,2023-04-15
-L005,Mary Chebet,Grade 7,Term 1,Health Education,63.82,2023-04-15
-L005,Mary Chebet,Grade 7,Term 1,Social Studies,57.38,2023-04-15
-L005,Mary Chebet,Grade 7,Term 1,Religious Education,63.78,2023-04-15
-L005,Mary Chebet,Grade 7,Term 1,Pre-Technical and Pre-Career Education,63.56,2023-04-15
-L005,Mary Chebet,Grade 7,Term 1,Agriculture,51.43,2023-04-15
-L005,Mary Chebet,Grade 7,Term 1,Business Studies,57.65,2023-04-15
-L005,Mary Chebet,Grade 7,Term 1,Life Skills Education,49.13,2023-04-15
-L005,Mary Chebet,Grade 7,Term 1,Sports and Physical Education,58.41,2023-04-15
-L005,Mary Chebet,Grade 7,Term 2,English,69.81,2023-08-15
-L005,Mary Chebet,Grade 7,Term 2,Kiswahili or Kenyan Sign Language,59.06,2023-08-15
-L005,Mary Chebet,Grade 7,Term 2,Mathematics,63.08,2023-08-15
-L005,Mary Chebet,Grade 7,Term 2,Integrated Science,59.72,2023-08-15
-L005,Mary Chebet,Grade 7,Term 2,Health Education,63.5,2023-08-15
-L005,Mary Chebet,Grade 7,Term 2,Social Studies,62.58,2023-08-15
-L005,Mary Chebet,Grade 7,Term 2,Religious Education,66.95,2023-08-15
-L005,Mary Chebet,Grade 7,Term 2,Pre-Technical and Pre-Career Education,57.46,2023-08-15
-L005,Mary Chebet,Grade 7,Term 2,Agriculture,49.78,2023-08-15
-L005,Mary Chebet,Grade 7,Term 2,Business Studies,59.34,2023-08-15
-L005,Mary Chebet,Grade 7,Term 2,Life Skills Education,51.15,2023-08-15
-L005,Mary Chebet,Grade 7,Term 2,Sports and Physical Education,60.67,2023-08-15
-L005,Mary Chebet,Grade 7,Term 3,English,66.09,2023-11-20
-L005,Mary Chebet,Grade 7,Term 3,Kiswahili or Kenyan Sign Language,58.65,2023-11-20
-L005,Mary Chebet,Grade 7,Term 3,Mathematics,64.56,2023-11-20
-L005,Mary Chebet,Grade 7,Term 3,Integrated Science,60.46,2023-11-20
-L005,Mary Chebet,Grade 7,Term 3,Health Education,59.05,2023-11-20
-L005,Mary Chebet,Grade 7,Term 3,Social Studies,62.04,2023-11-20
-L005,Mary Chebet,Grade 7,Term 3,Religious Education,65.72,2023-11-20
-L005,Mary Chebet,Grade 7,Term 3,Pre-Technical and Pre-Career Education,57.4,2023-11-20
-L005,Mary Chebet,Grade 7,Term 3,Agriculture,59.46,2023-11-20
-L005,Mary Chebet,Grade 7,Term 3,Business Studies,69.2,2023-11-20
-L005,Mary Chebet,Grade 7,Term 3,Life Skills Education,51.8,2023-11-20
-L005,Mary Chebet,Grade 7,Term 3,Sports and Physical Education,54.43,2023-11-20
-L005,Mary Chebet,Grade 8,Term 1,English,64.39,2024-04-15
-L005,Mary Chebet,Grade 8,Term 1,Kiswahili or Kenyan Sign Language,64.75,2024-04-15
-L005,Mary Chebet,Grade 8,Term 1,Mathematics,68.34,2024-04-15
-L005,Mary Chebet,Grade 8,Term 1,Integrated Science,57.3,2024-04-15
-L005,Mary Chebet,Grade 8,Term 1,Health Education,65.95,2024-04-15
-L005,Mary Chebet,Grade 8,Term 1,Social Studies,57.27,2024-04-15
-L005,Mary Chebet,Grade 8,Term 1,Religious Education,66.08,2024-04-15
-L005,Mary Chebet,Grade 8,Term 1,Pre-Technical and Pre-Career Education,63.9,2024-04-15
-L005,Mary Chebet,Grade 8,Term 1,Agriculture,52.46,2024-04-15
-L005,Mary Chebet,Grade 8,Term 1,Business Studies,68.01,2024-04-15
-L005,Mary Chebet,Grade 8,Term 1,Life Skills Education,60.82,2024-04-15
-L005,Mary Chebet,Grade 8,Term 1,Sports and Physical Education,61.59,2024-04-15
-L005,Mary Chebet,Grade 8,Term 2,English,63.36,2024-08-15
-L005,Mary Chebet,Grade 8,Term 2,Kiswahili or Kenyan Sign Language,69.17,2024-08-15
-L005,Mary Chebet,Grade 8,Term 2,Mathematics,67.34,2024-08-15
-L005,Mary Chebet,Grade 8,Term 2,Integrated Science,57.66,2024-08-15
-L005,Mary Chebet,Grade 8,Term 2,Health Education,63.68,2024-08-15
-L005,Mary Chebet,Grade 8,Term 2,Social Studies,61.58,2024-08-15
-L005,Mary Chebet,Grade 8,Term 2,Religious Education,65.04,2024-08-15
-L005,Mary Chebet,Grade 8,Term 2,Pre-Technical and Pre-Career Education,61.62,2024-08-15
-L005,Mary Chebet,Grade 8,Term 2,Agriculture,61.57,2024-08-15
-L005,Mary Chebet,Grade 8,Term 2,Business Studies,69.47,2024-08-15
-L005,Mary Chebet,Grade 8,Term 2,Life Skills Education,53.47,2024-08-15
-L005,Mary Chebet,Grade 8,Term 2,Sports and Physical Education,66.39,2024-08-15
-L005,Mary Chebet,Grade 8,Term 3,English,70.1,2024-11-20
-L005,Mary Chebet,Grade 8,Term 3,Kiswahili or Kenyan Sign Language,68.51,2024-11-20
-L005,Mary Chebet,Grade 8,Term 3,Mathematics,67.44,2024-11-20
-L005,Mary Chebet,Grade 8,Term 3,Integrated Science,59.54,2024-11-20
-L005,Mary Chebet,Grade 8,Term 3,Health Education,67.91,2024-11-20
-L005,Mary Chebet,Grade 8,Term 3,Social Studies,69.2,2024-11-20
-L005,Mary Chebet,Grade 8,Term 3,Religious Education,63.43,2024-11-20
-L005,Mary Chebet,Grade 8,Term 3,Pre-Technical and Pre-Career Education,67.62,2024-11-20
-L005,Mary Chebet,Grade 8,Term 3,Agriculture,59.04,2024-11-20
-L005,Mary Chebet,Grade 8,Term 3,Business Studies,66.67,2024-11-20
-L005,Mary Chebet,Grade 8,Term 3,Life Skills Education,57.96,2024-11-20
-L005,Mary Chebet,Grade 8,Term 3,Sports and Physical Education,64.7,2024-11-20
-L005,Mary Chebet,Grade 9,Term 1,English,67.13,2025-04-15
-L005,Mary Chebet,Grade 9,Term 1,Kiswahili or Kenyan Sign Language,69.81,2025-04-15
-L005,Mary Chebet,Grade 9,Term 1,Mathematics,69.74,2025-04-15
-L005,Mary Chebet,Grade 9,Term 1,Integrated Science,56.61,2025-04-15
-L005,Mary Chebet,Grade 9,Term 1,Health Education,70.42,2025-04-15
-L005,Mary Chebet,Grade 9,Term 1,Social Studies,62.33,2025-04-15
-L005,Mary Chebet,Grade 9,Term 1,Religious Education,66.57,2025-04-15
-L005,Mary Chebet,Grade 9,Term 1,Pre-Technical and Pre-Career Education,66.31,2025-04-15
-L005,Mary Chebet,Grade 9,Term 1,Agriculture,58.18,2025-04-15
-L005,Mary Chebet,Grade 9,Term 1,Business Studies,62.58,2025-04-15
-L005,Mary Chebet,Grade 9,Term 1,Life Skills Education,63.38,2025-04-15
-L005,Mary Chebet,Grade 9,Term 1,Sports and Physical Education,59.49,2025-04-15
-L005,Mary Chebet,Grade 9,Term 2,English,67.59,2025-08-15
-L005,Mary Chebet,Grade 9,Term 2,Kiswahili or Kenyan Sign Language,70.26,2025-08-15
-L005,Mary Chebet,Grade 9,Term 2,Mathematics,65.28,2025-08-15
-L005,Mary Chebet,Grade 9,Term 2,Integrated Science,66.24,2025-08-15
-L005,Mary Chebet,Grade 9,Term 2,Health Education,69.31,2025-08-15
-L005,Mary Chebet,Grade 9,Term 2,Social Studies,63.77,2025-08-15
-L005,Mary Chebet,Grade 9,Term 2,Religious Education,62.56,2025-08-15
-L005,Mary Chebet,Grade 9,Term 2,Pre-Technical and Pre-Career Education,70.89,2025-08-15
-L005,Mary Chebet,Grade 9,Term 2,Agriculture,55.85,2025-08-15
-L005,Mary Chebet,Grade 9,Term 2,Business Studies,71.11,2025-08-15
-L005,Mary Chebet,Grade 9,Term 2,Life Skills Education,60.24,2025-08-15
-L005,Mary Chebet,Grade 9,Term 2,Sports and Physical Education,66.67,2025-08-15
-L005,Mary Chebet,Grade 9,Term 3,English,73.93,2025-11-20
-L005,Mary Chebet,Grade 9,Term 3,Kiswahili or Kenyan Sign Language,69.64,2025-11-20
-L005,Mary Chebet,Grade 9,Term 3,Mathematics,67.87,2025-11-20
-L005,Mary Chebet,Grade 9,Term 3,Integrated Science,66.19,2025-11-20
-L005,Mary Chebet,Grade 9,Term 3,Health Education,63.5,2025-11-20
-L005,Mary Chebet,Grade 9,Term 3,Social Studies,64.24,2025-11-20
-L005,Mary Chebet,Grade 9,Term 3,Religious Education,71.04,2025-11-20
-L005,Mary Chebet,Grade 9,Term 3,Pre-Technical and Pre-Career Education,64.69,2025-11-20
-L005,Mary Chebet,Grade 9,Term 3,Agriculture,62.2,2025-11-20
-L005,Mary Chebet,Grade 9,Term 3,Business Studies,69.32,2025-11-20
-L005,Mary Chebet,Grade 9,Term 3,Life Skills Education,61.56,2025-11-20
-L005,Mary Chebet,Grade 9,Term 3,Sports and Physical Education,63.85,2025-11-20
+L001,George Oloo,Grade 7,Term 1,English,80.65,15-04-23
+L001,George Oloo,Grade 7,Term 1,Kiswahili or Kenyan Sign Language,61.11,15-04-23
+L001,George Oloo,Grade 7,Term 1,Mathematics,78.12,15-04-23
+L001,George Oloo,Grade 7,Term 1,Integrated Science,74.33,15-04-23
+L001,George Oloo,Grade 7,Term 1,Health Education,69.86,15-04-23
+L001,George Oloo,Grade 7,Term 1,Social Studies,67.77,15-04-23
+L001,George Oloo,Grade 7,Term 1,Religious Education,70.14,15-04-23
+L001,George Oloo,Grade 7,Term 1,Pre-Technical and Pre-Career Education,67.83,15-04-23
+L001,George Oloo,Grade 7,Term 1,Agriculture,71.96,15-04-23
+L001,George Oloo,Grade 7,Term 1,Business Studies,67.6,15-04-23
+L001,George Oloo,Grade 7,Term 1,Life Skills Education,71.26,15-04-23
+L001,George Oloo,Grade 7,Term 1,Sports and Physical Education,73.36,15-04-23
+L001,George Oloo,Grade 7,Term 2,English,81.54,15-08-23
+L001,George Oloo,Grade 7,Term 2,Kiswahili or Kenyan Sign Language,69.94,15-08-23
+L001,George Oloo,Grade 7,Term 2,Mathematics,76.2,15-08-23
+L001,George Oloo,Grade 7,Term 2,Integrated Science,78.48,15-08-23
+L001,George Oloo,Grade 7,Term 2,Health Education,71.29,15-08-23
+L001,George Oloo,Grade 7,Term 2,Social Studies,73,15-08-23
+L001,George Oloo,Grade 7,Term 2,Religious Education,69.58,15-08-23
+L001,George Oloo,Grade 7,Term 2,Pre-Technical and Pre-Career Education,71.88,15-08-23
+L001,George Oloo,Grade 7,Term 2,Agriculture,81.42,15-08-23
+L001,George Oloo,Grade 7,Term 2,Business Studies,73.76,15-08-23
+L001,George Oloo,Grade 7,Term 2,Life Skills Education,70.54,15-08-23
+L001,George Oloo,Grade 7,Term 2,Sports and Physical Education,68.08,15-08-23
+L001,George Oloo,Grade 7,Term 3,English,76.09,20-11-23
+L001,George Oloo,Grade 7,Term 3,Kiswahili or Kenyan Sign Language,65.97,20-11-23
+L001,George Oloo,Grade 7,Term 3,Mathematics,72.22,20-11-23
+L001,George Oloo,Grade 7,Term 3,Integrated Science,71.46,20-11-23
+L001,George Oloo,Grade 7,Term 3,Health Education,69.25,20-11-23
+L001,George Oloo,Grade 7,Term 3,Social Studies,70.86,20-11-23
+L001,George Oloo,Grade 7,Term 3,Religious Education,68.3,20-11-23
+L001,George Oloo,Grade 7,Term 3,Pre-Technical and Pre-Career Education,70.03,20-11-23
+L001,George Oloo,Grade 7,Term 3,Agriculture,77.01,20-11-23
+L001,George Oloo,Grade 7,Term 3,Business Studies,70.59,20-11-23
+L001,George Oloo,Grade 7,Term 3,Life Skills Education,66.57,20-11-23
+L001,George Oloo,Grade 7,Term 3,Sports and Physical Education,78.74,20-11-23
+L001,George Oloo,Grade 8,Term 1,English,81.62,15-04-24
+L001,George Oloo,Grade 8,Term 1,Kiswahili or Kenyan Sign Language,70.36,15-04-24
+L001,George Oloo,Grade 8,Term 1,Mathematics,74.26,15-04-24
+L001,George Oloo,Grade 8,Term 1,Integrated Science,78.04,15-04-24
+L001,George Oloo,Grade 8,Term 1,Health Education,70.95,15-04-24
+L001,George Oloo,Grade 8,Term 1,Social Studies,72.85,15-04-24
+L001,George Oloo,Grade 8,Term 1,Religious Education,73.03,15-04-24
+L001,George Oloo,Grade 8,Term 1,Pre-Technical and Pre-Career Education,74,15-04-24
+L001,George Oloo,Grade 8,Term 1,Agriculture,80.07,15-04-24
+L001,George Oloo,Grade 8,Term 1,Business Studies,76.69,15-04-24
+L001,George Oloo,Grade 8,Term 1,Life Skills Education,73.75,15-04-24
+L001,George Oloo,Grade 8,Term 1,Sports and Physical Education,77.83,15-04-24
+L001,George Oloo,Grade 8,Term 2,English,77.93,15-08-24
+L001,George Oloo,Grade 8,Term 2,Kiswahili or Kenyan Sign Language,64.89,15-08-24
+L001,George Oloo,Grade 8,Term 2,Mathematics,76.89,15-08-24
+L001,George Oloo,Grade 8,Term 2,Integrated Science,74.09,15-08-24
+L001,George Oloo,Grade 8,Term 2,Health Education,72.49,15-08-24
+L001,George Oloo,Grade 8,Term 2,Social Studies,79.93,15-08-24
+L001,George Oloo,Grade 8,Term 2,Religious Education,72.64,15-08-24
+L001,George Oloo,Grade 8,Term 2,Pre-Technical and Pre-Career Education,71.36,15-08-24
+L001,George Oloo,Grade 8,Term 2,Agriculture,82.15,15-08-24
+L001,George Oloo,Grade 8,Term 2,Business Studies,74.38,15-08-24
+L001,George Oloo,Grade 8,Term 2,Life Skills Education,75.38,15-08-24
+L001,George Oloo,Grade 8,Term 2,Sports and Physical Education,75.2,15-08-24
+L001,George Oloo,Grade 8,Term 3,English,79.24,20-11-24
+L001,George Oloo,Grade 8,Term 3,Kiswahili or Kenyan Sign Language,68.12,20-11-24
+L001,George Oloo,Grade 8,Term 3,Mathematics,80.64,20-11-24
+L001,George Oloo,Grade 8,Term 3,Integrated Science,75.16,20-11-24
+L001,George Oloo,Grade 8,Term 3,Health Education,77.61,20-11-24
+L001,George Oloo,Grade 8,Term 3,Social Studies,80.3,20-11-24
+L001,George Oloo,Grade 8,Term 3,Religious Education,68.24,20-11-24
+L001,George Oloo,Grade 8,Term 3,Pre-Technical and Pre-Career Education,71.26,20-11-24
+L001,George Oloo,Grade 8,Term 3,Agriculture,86.91,20-11-24
+L001,George Oloo,Grade 8,Term 3,Business Studies,76.51,20-11-24
+L001,George Oloo,Grade 8,Term 3,Life Skills Education,67.17,20-11-24
+L001,George Oloo,Grade 8,Term 3,Sports and Physical Education,71.53,20-11-24
+L001,George Oloo,Grade 9,Term 1,English,78.45,15-04-25
+L001,George Oloo,Grade 9,Term 1,Kiswahili or Kenyan Sign Language,73.18,15-04-25
+L001,George Oloo,Grade 9,Term 1,Mathematics,84.21,15-04-25
+L001,George Oloo,Grade 9,Term 1,Integrated Science,78.04,15-04-25
+L001,George Oloo,Grade 9,Term 1,Health Education,72.89,15-04-25
+L001,George Oloo,Grade 9,Term 1,Social Studies,75.5,15-04-25
+L001,George Oloo,Grade 9,Term 1,Religious Education,75.65,15-04-25
+L001,George Oloo,Grade 9,Term 1,Pre-Technical and Pre-Career Education,75.61,15-04-25
+L001,George Oloo,Grade 9,Term 1,Agriculture,87.62,15-04-25
+L001,George Oloo,Grade 9,Term 1,Business Studies,81.24,15-04-25
+L001,George Oloo,Grade 9,Term 1,Life Skills Education,67.14,15-04-25
+L001,George Oloo,Grade 9,Term 1,Sports and Physical Education,79.8,15-04-25
+L001,George Oloo,Grade 9,Term 2,English,85.66,15-08-25
+L001,George Oloo,Grade 9,Term 2,Kiswahili or Kenyan Sign Language,73.06,15-08-25
+L001,George Oloo,Grade 9,Term 2,Mathematics,79.48,15-08-25
+L001,George Oloo,Grade 9,Term 2,Integrated Science,81.57,15-08-25
+L001,George Oloo,Grade 9,Term 2,Health Education,74.43,15-08-25
+L001,George Oloo,Grade 9,Term 2,Social Studies,76.96,15-08-25
+L001,George Oloo,Grade 9,Term 2,Religious Education,70.52,15-08-25
+L001,George Oloo,Grade 9,Term 2,Pre-Technical and Pre-Career Education,81.22,15-08-25
+L001,George Oloo,Grade 9,Term 2,Agriculture,87.57,15-08-25
+L001,George Oloo,Grade 9,Term 2,Business Studies,75.55,15-08-25
+L001,George Oloo,Grade 9,Term 2,Life Skills Education,73.37,15-08-25
+L001,George Oloo,Grade 9,Term 2,Sports and Physical Education,74.7,15-08-25
+L001,George Oloo,Grade 9,Term 3,English,89.11,20-11-25
+L001,George Oloo,Grade 9,Term 3,Kiswahili or Kenyan Sign Language,77.6,20-11-25
+L001,George Oloo,Grade 9,Term 3,Mathematics,80.86,20-11-25
+L001,George Oloo,Grade 9,Term 3,Integrated Science,82.67,20-11-25
+L001,George Oloo,Grade 9,Term 3,Health Education,80.92,20-11-25
+L001,George Oloo,Grade 9,Term 3,Social Studies,74.73,20-11-25
+L001,George Oloo,Grade 9,Term 3,Religious Education,74.77,20-11-25
+L001,George Oloo,Grade 9,Term 3,Pre-Technical and Pre-Career Education,77.61,20-11-25
+L001,George Oloo,Grade 9,Term 3,Agriculture,87.5,20-11-25
+L001,George Oloo,Grade 9,Term 3,Business Studies,79.36,20-11-25
+L001,George Oloo,Grade 9,Term 3,Life Skills Education,68.71,20-11-25
+L001,George Oloo,Grade 9,Term 3,Sports and Physical Education,77.16,20-11-25
+L002,Michael Wanjiku,Grade 7,Term 1,English,64.9,15-04-23
+L002,Michael Wanjiku,Grade 7,Term 1,Kiswahili or Kenyan Sign Language,52.75,15-04-23
+L002,Michael Wanjiku,Grade 7,Term 1,Mathematics,56.93,15-04-23
+L002,Michael Wanjiku,Grade 7,Term 1,Integrated Science,58.87,15-04-23
+L002,Michael Wanjiku,Grade 7,Term 1,Health Education,60.77,15-04-23
+L002,Michael Wanjiku,Grade 7,Term 1,Social Studies,52.07,15-04-23
+L002,Michael Wanjiku,Grade 7,Term 1,Religious Education,57.65,15-04-23
+L002,Michael Wanjiku,Grade 7,Term 1,Pre-Technical and Pre-Career Education,60.74,15-04-23
+L002,Michael Wanjiku,Grade 7,Term 1,Agriculture,61.53,15-04-23
+L002,Michael Wanjiku,Grade 7,Term 1,Business Studies,51.34,15-04-23
+L002,Michael Wanjiku,Grade 7,Term 1,Life Skills Education,49.1,15-04-23
+L002,Michael Wanjiku,Grade 7,Term 1,Sports and Physical Education,52.93,15-04-23
+L002,Michael Wanjiku,Grade 7,Term 2,English,64.66,15-08-23
+L002,Michael Wanjiku,Grade 7,Term 2,Kiswahili or Kenyan Sign Language,56.17,15-08-23
+L002,Michael Wanjiku,Grade 7,Term 2,Mathematics,54.21,15-08-23
+L002,Michael Wanjiku,Grade 7,Term 2,Integrated Science,53.27,15-08-23
+L002,Michael Wanjiku,Grade 7,Term 2,Health Education,50.69,15-08-23
+L002,Michael Wanjiku,Grade 7,Term 2,Social Studies,48.21,15-08-23
+L002,Michael Wanjiku,Grade 7,Term 2,Religious Education,56.07,15-08-23
+L002,Michael Wanjiku,Grade 7,Term 2,Pre-Technical and Pre-Career Education,53.52,15-08-23
+L002,Michael Wanjiku,Grade 7,Term 2,Agriculture,61.76,15-08-23
+L002,Michael Wanjiku,Grade 7,Term 2,Business Studies,47.86,15-08-23
+L002,Michael Wanjiku,Grade 7,Term 2,Life Skills Education,42.71,15-08-23
+L002,Michael Wanjiku,Grade 7,Term 2,Sports and Physical Education,49.43,15-08-23
+L002,Michael Wanjiku,Grade 7,Term 3,English,58.69,20-11-23
+L002,Michael Wanjiku,Grade 7,Term 3,Kiswahili or Kenyan Sign Language,57.13,20-11-23
+L002,Michael Wanjiku,Grade 7,Term 3,Mathematics,54.91,20-11-23
+L002,Michael Wanjiku,Grade 7,Term 3,Integrated Science,58.28,20-11-23
+L002,Michael Wanjiku,Grade 7,Term 3,Health Education,56.69,20-11-23
+L002,Michael Wanjiku,Grade 7,Term 3,Social Studies,50.34,20-11-23
+L002,Michael Wanjiku,Grade 7,Term 3,Religious Education,59.57,20-11-23
+L002,Michael Wanjiku,Grade 7,Term 3,Pre-Technical and Pre-Career Education,60.08,20-11-23
+L002,Michael Wanjiku,Grade 7,Term 3,Agriculture,56.92,20-11-23
+L002,Michael Wanjiku,Grade 7,Term 3,Business Studies,52.68,20-11-23
+L002,Michael Wanjiku,Grade 7,Term 3,Life Skills Education,46.71,20-11-23
+L002,Michael Wanjiku,Grade 7,Term 3,Sports and Physical Education,50.39,20-11-23
+L002,Michael Wanjiku,Grade 8,Term 1,English,62.59,15-04-24
+L002,Michael Wanjiku,Grade 8,Term 1,Kiswahili or Kenyan Sign Language,55.65,15-04-24
+L002,Michael Wanjiku,Grade 8,Term 1,Mathematics,56.72,15-04-24
+L002,Michael Wanjiku,Grade 8,Term 1,Integrated Science,62.81,15-04-24
+L002,Michael Wanjiku,Grade 8,Term 1,Health Education,51.65,15-04-24
+L002,Michael Wanjiku,Grade 8,Term 1,Social Studies,49.84,15-04-24
+L002,Michael Wanjiku,Grade 8,Term 1,Religious Education,57.23,15-04-24
+L002,Michael Wanjiku,Grade 8,Term 1,Pre-Technical and Pre-Career Education,54.7,15-04-24
+L002,Michael Wanjiku,Grade 8,Term 1,Agriculture,62.54,15-04-24
+L002,Michael Wanjiku,Grade 8,Term 1,Business Studies,56.54,15-04-24
+L002,Michael Wanjiku,Grade 8,Term 1,Life Skills Education,43.69,15-04-24
+L002,Michael Wanjiku,Grade 8,Term 1,Sports and Physical Education,51.73,15-04-24
+L002,Michael Wanjiku,Grade 8,Term 2,English,61.53,15-08-24
+L002,Michael Wanjiku,Grade 8,Term 2,Kiswahili or Kenyan Sign Language,53.56,15-08-24
+L002,Michael Wanjiku,Grade 8,Term 2,Mathematics,54.57,15-08-24
+L002,Michael Wanjiku,Grade 8,Term 2,Integrated Science,58.76,15-08-24
+L002,Michael Wanjiku,Grade 8,Term 2,Health Education,60.97,15-08-24
+L002,Michael Wanjiku,Grade 8,Term 2,Social Studies,43.75,15-08-24
+L002,Michael Wanjiku,Grade 8,Term 2,Religious Education,59.28,15-08-24
+L002,Michael Wanjiku,Grade 8,Term 2,Pre-Technical and Pre-Career Education,63.75,15-08-24
+L002,Michael Wanjiku,Grade 8,Term 2,Agriculture,55.89,15-08-24
+L002,Michael Wanjiku,Grade 8,Term 2,Business Studies,55.17,15-08-24
+L002,Michael Wanjiku,Grade 8,Term 2,Life Skills Education,48.69,15-08-24
+L002,Michael Wanjiku,Grade 8,Term 2,Sports and Physical Education,50.05,15-08-24
+L002,Michael Wanjiku,Grade 8,Term 3,English,56.94,20-11-24
+L002,Michael Wanjiku,Grade 8,Term 3,Kiswahili or Kenyan Sign Language,60.58,20-11-24
+L002,Michael Wanjiku,Grade 8,Term 3,Mathematics,55.51,20-11-24
+L002,Michael Wanjiku,Grade 8,Term 3,Integrated Science,58.52,20-11-24
+L002,Michael Wanjiku,Grade 8,Term 3,Health Education,56.94,20-11-24
+L002,Michael Wanjiku,Grade 8,Term 3,Social Studies,52.69,20-11-24
+L002,Michael Wanjiku,Grade 8,Term 3,Religious Education,60.58,20-11-24
+L002,Michael Wanjiku,Grade 8,Term 3,Pre-Technical and Pre-Career Education,56.44,20-11-24
+L002,Michael Wanjiku,Grade 8,Term 3,Agriculture,55.11,20-11-24
+L002,Michael Wanjiku,Grade 8,Term 3,Business Studies,52.55,20-11-24
+L002,Michael Wanjiku,Grade 8,Term 3,Life Skills Education,53.2,20-11-24
+L002,Michael Wanjiku,Grade 8,Term 3,Sports and Physical Education,58.79,20-11-24
+L002,Michael Wanjiku,Grade 9,Term 1,English,59.34,15-04-25
+L002,Michael Wanjiku,Grade 9,Term 1,Kiswahili or Kenyan Sign Language,60.22,15-04-25
+L002,Michael Wanjiku,Grade 9,Term 1,Mathematics,61.31,15-04-25
+L002,Michael Wanjiku,Grade 9,Term 1,Integrated Science,63.03,15-04-25
+L002,Michael Wanjiku,Grade 9,Term 1,Health Education,59.22,15-04-25
+L002,Michael Wanjiku,Grade 9,Term 1,Social Studies,48.8,15-04-25
+L002,Michael Wanjiku,Grade 9,Term 1,Religious Education,53,15-04-25
+L002,Michael Wanjiku,Grade 9,Term 1,Pre-Technical and Pre-Career Education,57.32,15-04-25
+L002,Michael Wanjiku,Grade 9,Term 1,Agriculture,56.01,15-04-25
+L002,Michael Wanjiku,Grade 9,Term 1,Business Studies,56.61,15-04-25
+L002,Michael Wanjiku,Grade 9,Term 1,Life Skills Education,43.93,15-04-25
+L002,Michael Wanjiku,Grade 9,Term 1,Sports and Physical Education,53.87,15-04-25
+L002,Michael Wanjiku,Grade 9,Term 2,English,57.05,15-08-25
+L002,Michael Wanjiku,Grade 9,Term 2,Kiswahili or Kenyan Sign Language,58.08,15-08-25
+L002,Michael Wanjiku,Grade 9,Term 2,Mathematics,63.74,15-08-25
+L002,Michael Wanjiku,Grade 9,Term 2,Integrated Science,60.63,15-08-25
+L002,Michael Wanjiku,Grade 9,Term 2,Health Education,52.87,15-08-25
+L002,Michael Wanjiku,Grade 9,Term 2,Social Studies,49.3,15-08-25
+L002,Michael Wanjiku,Grade 9,Term 2,Religious Education,60.54,15-08-25
+L002,Michael Wanjiku,Grade 9,Term 2,Pre-Technical and Pre-Career Education,55.98,15-08-25
+L002,Michael Wanjiku,Grade 9,Term 2,Agriculture,56.39,15-08-25
+L002,Michael Wanjiku,Grade 9,Term 2,Business Studies,58.26,15-08-25
+L002,Michael Wanjiku,Grade 9,Term 2,Life Skills Education,47.96,15-08-25
+L002,Michael Wanjiku,Grade 9,Term 2,Sports and Physical Education,61.04,15-08-25
+L002,Michael Wanjiku,Grade 9,Term 3,English,63.05,20-11-25
+L002,Michael Wanjiku,Grade 9,Term 3,Kiswahili or Kenyan Sign Language,59.47,20-11-25
+L002,Michael Wanjiku,Grade 9,Term 3,Mathematics,54.42,20-11-25
+L002,Michael Wanjiku,Grade 9,Term 3,Integrated Science,56.06,20-11-25
+L002,Michael Wanjiku,Grade 9,Term 3,Health Education,59.77,20-11-25
+L002,Michael Wanjiku,Grade 9,Term 3,Social Studies,50.2,20-11-25
+L002,Michael Wanjiku,Grade 9,Term 3,Religious Education,54.91,20-11-25
+L002,Michael Wanjiku,Grade 9,Term 3,Pre-Technical and Pre-Career Education,58.39,20-11-25
+L002,Michael Wanjiku,Grade 9,Term 3,Agriculture,63.29,20-11-25
+L002,Michael Wanjiku,Grade 9,Term 3,Business Studies,52.5,20-11-25
+L002,Michael Wanjiku,Grade 9,Term 3,Life Skills Education,46.7,20-11-25
+L002,Michael Wanjiku,Grade 9,Term 3,Sports and Physical Education,52.39,20-11-25
+L003,Jessica Kamau,Grade 7,Term 1,English,59.76,15-04-23
+L003,Jessica Kamau,Grade 7,Term 1,Kiswahili or Kenyan Sign Language,58.34,15-04-23
+L003,Jessica Kamau,Grade 7,Term 1,Mathematics,61.54,15-04-23
+L003,Jessica Kamau,Grade 7,Term 1,Integrated Science,69.11,15-04-23
+L003,Jessica Kamau,Grade 7,Term 1,Health Education,73.21,15-04-23
+L003,Jessica Kamau,Grade 7,Term 1,Social Studies,56.37,15-04-23
+L003,Jessica Kamau,Grade 7,Term 1,Religious Education,49.54,15-04-23
+L003,Jessica Kamau,Grade 7,Term 1,Pre-Technical and Pre-Career Education,58.72,15-04-23
+L003,Jessica Kamau,Grade 7,Term 1,Agriculture,61.04,15-04-23
+L003,Jessica Kamau,Grade 7,Term 1,Business Studies,64.07,15-04-23
+L003,Jessica Kamau,Grade 7,Term 1,Life Skills Education,69.88,15-04-23
+L003,Jessica Kamau,Grade 7,Term 1,Sports and Physical Education,57.01,15-04-23
+L003,Jessica Kamau,Grade 7,Term 2,English,59.49,15-08-23
+L003,Jessica Kamau,Grade 7,Term 2,Kiswahili or Kenyan Sign Language,50.54,15-08-23
+L003,Jessica Kamau,Grade 7,Term 2,Mathematics,60.08,15-08-23
+L003,Jessica Kamau,Grade 7,Term 2,Integrated Science,65.59,15-08-23
+L003,Jessica Kamau,Grade 7,Term 2,Health Education,69.22,15-08-23
+L003,Jessica Kamau,Grade 7,Term 2,Social Studies,57.26,15-08-23
+L003,Jessica Kamau,Grade 7,Term 2,Religious Education,51.88,15-08-23
+L003,Jessica Kamau,Grade 7,Term 2,Pre-Technical and Pre-Career Education,56.89,15-08-23
+L003,Jessica Kamau,Grade 7,Term 2,Agriculture,60.83,15-08-23
+L003,Jessica Kamau,Grade 7,Term 2,Business Studies,62.32,15-08-23
+L003,Jessica Kamau,Grade 7,Term 2,Life Skills Education,69.71,15-08-23
+L003,Jessica Kamau,Grade 7,Term 2,Sports and Physical Education,65.06,15-08-23
+L003,Jessica Kamau,Grade 7,Term 3,English,59.43,20-11-23
+L003,Jessica Kamau,Grade 7,Term 3,Kiswahili or Kenyan Sign Language,54.21,20-11-23
+L003,Jessica Kamau,Grade 7,Term 3,Mathematics,57.23,20-11-23
+L003,Jessica Kamau,Grade 7,Term 3,Integrated Science,62.84,20-11-23
+L003,Jessica Kamau,Grade 7,Term 3,Health Education,71.25,20-11-23
+L003,Jessica Kamau,Grade 7,Term 3,Social Studies,56.57,20-11-23
+L003,Jessica Kamau,Grade 7,Term 3,Religious Education,52.7,20-11-23
+L003,Jessica Kamau,Grade 7,Term 3,Pre-Technical and Pre-Career Education,58.24,20-11-23
+L003,Jessica Kamau,Grade 7,Term 3,Agriculture,64.17,20-11-23
+L003,Jessica Kamau,Grade 7,Term 3,Business Studies,61.82,20-11-23
+L003,Jessica Kamau,Grade 7,Term 3,Life Skills Education,60.05,20-11-23
+L003,Jessica Kamau,Grade 7,Term 3,Sports and Physical Education,56.79,20-11-23
+L003,Jessica Kamau,Grade 8,Term 1,English,68.33,15-04-24
+L003,Jessica Kamau,Grade 8,Term 1,Kiswahili or Kenyan Sign Language,59.69,15-04-24
+L003,Jessica Kamau,Grade 8,Term 1,Mathematics,60.38,15-04-24
+L003,Jessica Kamau,Grade 8,Term 1,Integrated Science,72.19,15-04-24
+L003,Jessica Kamau,Grade 8,Term 1,Health Education,69.39,15-04-24
+L003,Jessica Kamau,Grade 8,Term 1,Social Studies,51.38,15-04-24
+L003,Jessica Kamau,Grade 8,Term 1,Religious Education,51.4,15-04-24
+L003,Jessica Kamau,Grade 8,Term 1,Pre-Technical and Pre-Career Education,53.66,15-04-24
+L003,Jessica Kamau,Grade 8,Term 1,Agriculture,68.17,15-04-24
+L003,Jessica Kamau,Grade 8,Term 1,Business Studies,66.05,15-04-24
+L003,Jessica Kamau,Grade 8,Term 1,Life Skills Education,69.61,15-04-24
+L003,Jessica Kamau,Grade 8,Term 1,Sports and Physical Education,66.07,15-04-24
+L003,Jessica Kamau,Grade 8,Term 2,English,61.12,15-08-24
+L003,Jessica Kamau,Grade 8,Term 2,Kiswahili or Kenyan Sign Language,52.68,15-08-24
+L003,Jessica Kamau,Grade 8,Term 2,Mathematics,55.7,15-08-24
+L003,Jessica Kamau,Grade 8,Term 2,Integrated Science,71.8,15-08-24
+L003,Jessica Kamau,Grade 8,Term 2,Health Education,72.92,15-08-24
+L003,Jessica Kamau,Grade 8,Term 2,Social Studies,54.42,15-08-24
+L003,Jessica Kamau,Grade 8,Term 2,Religious Education,57.01,15-08-24
+L003,Jessica Kamau,Grade 8,Term 2,Pre-Technical and Pre-Career Education,52.14,15-08-24
+L003,Jessica Kamau,Grade 8,Term 2,Agriculture,68.69,15-08-24
+L003,Jessica Kamau,Grade 8,Term 2,Business Studies,66.98,15-08-24
+L003,Jessica Kamau,Grade 8,Term 2,Life Skills Education,71.08,15-08-24
+L003,Jessica Kamau,Grade 8,Term 2,Sports and Physical Education,65.31,15-08-24
+L003,Jessica Kamau,Grade 8,Term 3,English,68.71,20-11-24
+L003,Jessica Kamau,Grade 8,Term 3,Kiswahili or Kenyan Sign Language,50.4,20-11-24
+L003,Jessica Kamau,Grade 8,Term 3,Mathematics,62.86,20-11-24
+L003,Jessica Kamau,Grade 8,Term 3,Integrated Science,67.08,20-11-24
+L003,Jessica Kamau,Grade 8,Term 3,Health Education,73.64,20-11-24
+L003,Jessica Kamau,Grade 8,Term 3,Social Studies,58.96,20-11-24
+L003,Jessica Kamau,Grade 8,Term 3,Religious Education,59.87,20-11-24
+L003,Jessica Kamau,Grade 8,Term 3,Pre-Technical and Pre-Career Education,59.54,20-11-24
+L003,Jessica Kamau,Grade 8,Term 3,Agriculture,61.57,20-11-24
+L003,Jessica Kamau,Grade 8,Term 3,Business Studies,66.31,20-11-24
+L003,Jessica Kamau,Grade 8,Term 3,Life Skills Education,61.73,20-11-24
+L003,Jessica Kamau,Grade 8,Term 3,Sports and Physical Education,66.2,20-11-24
+L003,Jessica Kamau,Grade 9,Term 1,English,68.65,15-04-25
+L003,Jessica Kamau,Grade 9,Term 1,Kiswahili or Kenyan Sign Language,52.77,15-04-25
+L003,Jessica Kamau,Grade 9,Term 1,Mathematics,63.93,15-04-25
+L003,Jessica Kamau,Grade 9,Term 1,Integrated Science,68.7,15-04-25
+L003,Jessica Kamau,Grade 9,Term 1,Health Education,66.97,15-04-25
+L003,Jessica Kamau,Grade 9,Term 1,Social Studies,59.08,15-04-25
+L003,Jessica Kamau,Grade 9,Term 1,Religious Education,53.05,15-04-25
+L003,Jessica Kamau,Grade 9,Term 1,Pre-Technical and Pre-Career Education,51.06,15-04-25
+L003,Jessica Kamau,Grade 9,Term 1,Agriculture,60.94,15-04-25
+L003,Jessica Kamau,Grade 9,Term 1,Business Studies,61.43,15-04-25
+L003,Jessica Kamau,Grade 9,Term 1,Life Skills Education,70.25,15-04-25
+L003,Jessica Kamau,Grade 9,Term 1,Sports and Physical Education,67.46,15-04-25
+L003,Jessica Kamau,Grade 9,Term 2,English,62.48,15-08-25
+L003,Jessica Kamau,Grade 9,Term 2,Kiswahili or Kenyan Sign Language,57.57,15-08-25
+L003,Jessica Kamau,Grade 9,Term 2,Mathematics,59.54,15-08-25
+L003,Jessica Kamau,Grade 9,Term 2,Integrated Science,74.64,15-08-25
+L003,Jessica Kamau,Grade 9,Term 2,Health Education,69.72,15-08-25
+L003,Jessica Kamau,Grade 9,Term 2,Social Studies,60.86,15-08-25
+L003,Jessica Kamau,Grade 9,Term 2,Religious Education,51.99,15-08-25
+L003,Jessica Kamau,Grade 9,Term 2,Pre-Technical and Pre-Career Education,61.65,15-08-25
+L003,Jessica Kamau,Grade 9,Term 2,Agriculture,60.96,15-08-25
+L003,Jessica Kamau,Grade 9,Term 2,Business Studies,68.58,15-08-25
+L003,Jessica Kamau,Grade 9,Term 2,Life Skills Education,63.86,15-08-25
+L003,Jessica Kamau,Grade 9,Term 2,Sports and Physical Education,58.23,15-08-25
+L003,Jessica Kamau,Grade 9,Term 3,English,64.39,20-11-25
+L003,Jessica Kamau,Grade 9,Term 3,Kiswahili or Kenyan Sign Language,58.72,20-11-25
+L003,Jessica Kamau,Grade 9,Term 3,Mathematics,58.79,20-11-25
+L003,Jessica Kamau,Grade 9,Term 3,Integrated Science,70.72,20-11-25
+L003,Jessica Kamau,Grade 9,Term 3,Health Education,69.65,20-11-25
+L003,Jessica Kamau,Grade 9,Term 3,Social Studies,54.95,20-11-25
+L003,Jessica Kamau,Grade 9,Term 3,Religious Education,57.25,20-11-25
+L003,Jessica Kamau,Grade 9,Term 3,Pre-Technical and Pre-Career Education,53.96,20-11-25
+L003,Jessica Kamau,Grade 9,Term 3,Agriculture,66.97,20-11-25
+L003,Jessica Kamau,Grade 9,Term 3,Business Studies,58.19,20-11-25
+L003,Jessica Kamau,Grade 9,Term 3,Life Skills Education,71.32,20-11-25
+L003,Jessica Kamau,Grade 9,Term 3,Sports and Physical Education,63.18,20-11-25
+L004,Linda Akinyi,Grade 7,Term 1,English,76.67,15-04-23
+L004,Linda Akinyi,Grade 7,Term 1,Kiswahili or Kenyan Sign Language,74.79,15-04-23
+L004,Linda Akinyi,Grade 7,Term 1,Mathematics,86.21,15-04-23
+L004,Linda Akinyi,Grade 7,Term 1,Integrated Science,84.83,15-04-23
+L004,Linda Akinyi,Grade 7,Term 1,Health Education,85.32,15-04-23
+L004,Linda Akinyi,Grade 7,Term 1,Social Studies,77.38,15-04-23
+L004,Linda Akinyi,Grade 7,Term 1,Religious Education,73.86,15-04-23
+L004,Linda Akinyi,Grade 7,Term 1,Pre-Technical and Pre-Career Education,81.03,15-04-23
+L004,Linda Akinyi,Grade 7,Term 1,Agriculture,81.01,15-04-23
+L004,Linda Akinyi,Grade 7,Term 1,Business Studies,76.75,15-04-23
+L004,Linda Akinyi,Grade 7,Term 1,Life Skills Education,74.43,15-04-23
+L004,Linda Akinyi,Grade 7,Term 1,Sports and Physical Education,87.32,15-04-23
+L004,Linda Akinyi,Grade 7,Term 2,English,78.33,15-08-23
+L004,Linda Akinyi,Grade 7,Term 2,Kiswahili or Kenyan Sign Language,77.28,15-08-23
+L004,Linda Akinyi,Grade 7,Term 2,Mathematics,84.81,15-08-23
+L004,Linda Akinyi,Grade 7,Term 2,Integrated Science,89.24,15-08-23
+L004,Linda Akinyi,Grade 7,Term 2,Health Education,83.86,15-08-23
+L004,Linda Akinyi,Grade 7,Term 2,Social Studies,85.25,15-08-23
+L004,Linda Akinyi,Grade 7,Term 2,Religious Education,79.15,15-08-23
+L004,Linda Akinyi,Grade 7,Term 2,Pre-Technical and Pre-Career Education,85.63,15-08-23
+L004,Linda Akinyi,Grade 7,Term 2,Agriculture,80.06,15-08-23
+L004,Linda Akinyi,Grade 7,Term 2,Business Studies,77.49,15-08-23
+L004,Linda Akinyi,Grade 7,Term 2,Life Skills Education,80.51,15-08-23
+L004,Linda Akinyi,Grade 7,Term 2,Sports and Physical Education,86.66,15-08-23
+L004,Linda Akinyi,Grade 7,Term 3,English,73.77,20-11-23
+L004,Linda Akinyi,Grade 7,Term 3,Kiswahili or Kenyan Sign Language,85.26,20-11-23
+L004,Linda Akinyi,Grade 7,Term 3,Mathematics,83.58,20-11-23
+L004,Linda Akinyi,Grade 7,Term 3,Integrated Science,86.37,20-11-23
+L004,Linda Akinyi,Grade 7,Term 3,Health Education,88.25,20-11-23
+L004,Linda Akinyi,Grade 7,Term 3,Social Studies,79.19,20-11-23
+L004,Linda Akinyi,Grade 7,Term 3,Religious Education,70.09,20-11-23
+L004,Linda Akinyi,Grade 7,Term 3,Pre-Technical and Pre-Career Education,89.33,20-11-23
+L004,Linda Akinyi,Grade 7,Term 3,Agriculture,80.52,20-11-23
+L004,Linda Akinyi,Grade 7,Term 3,Business Studies,83.78,20-11-23
+L004,Linda Akinyi,Grade 7,Term 3,Life Skills Education,79.3,20-11-23
+L004,Linda Akinyi,Grade 7,Term 3,Sports and Physical Education,90.78,20-11-23
+L004,Linda Akinyi,Grade 8,Term 1,English,80.16,15-04-24
+L004,Linda Akinyi,Grade 8,Term 1,Kiswahili or Kenyan Sign Language,83.74,15-04-24
+L004,Linda Akinyi,Grade 8,Term 1,Mathematics,86.28,15-04-24
+L004,Linda Akinyi,Grade 8,Term 1,Integrated Science,88.49,15-04-24
+L004,Linda Akinyi,Grade 8,Term 1,Health Education,82.15,15-04-24
+L004,Linda Akinyi,Grade 8,Term 1,Social Studies,86.19,15-04-24
+L004,Linda Akinyi,Grade 8,Term 1,Religious Education,80.39,15-04-24
+L004,Linda Akinyi,Grade 8,Term 1,Pre-Technical and Pre-Career Education,88.95,15-04-24
+L004,Linda Akinyi,Grade 8,Term 1,Agriculture,84.51,15-04-24
+L004,Linda Akinyi,Grade 8,Term 1,Business Studies,84.85,15-04-24
+L004,Linda Akinyi,Grade 8,Term 1,Life Skills Education,77.78,15-04-24
+L004,Linda Akinyi,Grade 8,Term 1,Sports and Physical Education,91.06,15-04-24
+L004,Linda Akinyi,Grade 8,Term 2,English,82.56,15-08-24
+L004,Linda Akinyi,Grade 8,Term 2,Kiswahili or Kenyan Sign Language,82,15-08-24
+L004,Linda Akinyi,Grade 8,Term 2,Mathematics,89.24,15-08-24
+L004,Linda Akinyi,Grade 8,Term 2,Integrated Science,95,15-08-24
+L004,Linda Akinyi,Grade 8,Term 2,Health Education,83.01,15-08-24
+L004,Linda Akinyi,Grade 8,Term 2,Social Studies,81.15,15-08-24
+L004,Linda Akinyi,Grade 8,Term 2,Religious Education,76.67,15-08-24
+L004,Linda Akinyi,Grade 8,Term 2,Pre-Technical and Pre-Career Education,86.3,15-08-24
+L004,Linda Akinyi,Grade 8,Term 2,Agriculture,81.89,15-08-24
+L004,Linda Akinyi,Grade 8,Term 2,Business Studies,80.73,15-08-24
+L004,Linda Akinyi,Grade 8,Term 2,Life Skills Education,84.77,15-08-24
+L004,Linda Akinyi,Grade 8,Term 2,Sports and Physical Education,88.26,15-08-24
+L004,Linda Akinyi,Grade 8,Term 3,English,84.96,20-11-24
+L004,Linda Akinyi,Grade 8,Term 3,Kiswahili or Kenyan Sign Language,87.76,20-11-24
+L004,Linda Akinyi,Grade 8,Term 3,Mathematics,88.85,20-11-24
+L004,Linda Akinyi,Grade 8,Term 3,Integrated Science,95,20-11-24
+L004,Linda Akinyi,Grade 8,Term 3,Health Education,87.73,20-11-24
+L004,Linda Akinyi,Grade 8,Term 3,Social Studies,82.48,20-11-24
+L004,Linda Akinyi,Grade 8,Term 3,Religious Education,82.03,20-11-24
+L004,Linda Akinyi,Grade 8,Term 3,Pre-Technical and Pre-Career Education,86.38,20-11-24
+L004,Linda Akinyi,Grade 8,Term 3,Agriculture,84.98,20-11-24
+L004,Linda Akinyi,Grade 8,Term 3,Business Studies,87.44,20-11-24
+L004,Linda Akinyi,Grade 8,Term 3,Life Skills Education,80.59,20-11-24
+L004,Linda Akinyi,Grade 8,Term 3,Sports and Physical Education,93.12,20-11-24
+L004,Linda Akinyi,Grade 9,Term 1,English,82.41,15-04-25
+L004,Linda Akinyi,Grade 9,Term 1,Kiswahili or Kenyan Sign Language,81.63,15-04-25
+L004,Linda Akinyi,Grade 9,Term 1,Mathematics,90.05,15-04-25
+L004,Linda Akinyi,Grade 9,Term 1,Integrated Science,95,15-04-25
+L004,Linda Akinyi,Grade 9,Term 1,Health Education,86.55,15-04-25
+L004,Linda Akinyi,Grade 9,Term 1,Social Studies,85.48,15-04-25
+L004,Linda Akinyi,Grade 9,Term 1,Religious Education,83.36,15-04-25
+L004,Linda Akinyi,Grade 9,Term 1,Pre-Technical and Pre-Career Education,83.29,15-04-25
+L004,Linda Akinyi,Grade 9,Term 1,Agriculture,79.35,15-04-25
+L004,Linda Akinyi,Grade 9,Term 1,Business Studies,83.37,15-04-25
+L004,Linda Akinyi,Grade 9,Term 1,Life Skills Education,80.31,15-04-25
+L004,Linda Akinyi,Grade 9,Term 1,Sports and Physical Education,88.1,15-04-25
+L004,Linda Akinyi,Grade 9,Term 2,English,82.73,15-08-25
+L004,Linda Akinyi,Grade 9,Term 2,Kiswahili or Kenyan Sign Language,83.69,15-08-25
+L004,Linda Akinyi,Grade 9,Term 2,Mathematics,91.39,15-08-25
+L004,Linda Akinyi,Grade 9,Term 2,Integrated Science,89.37,15-08-25
+L004,Linda Akinyi,Grade 9,Term 2,Health Education,94.28,15-08-25
+L004,Linda Akinyi,Grade 9,Term 2,Social Studies,87.12,15-08-25
+L004,Linda Akinyi,Grade 9,Term 2,Religious Education,83,15-08-25
+L004,Linda Akinyi,Grade 9,Term 2,Pre-Technical and Pre-Career Education,93.78,15-08-25
+L004,Linda Akinyi,Grade 9,Term 2,Agriculture,78.88,15-08-25
+L004,Linda Akinyi,Grade 9,Term 2,Business Studies,89.81,15-08-25
+L004,Linda Akinyi,Grade 9,Term 2,Life Skills Education,86.04,15-08-25
+L004,Linda Akinyi,Grade 9,Term 2,Sports and Physical Education,92.17,15-08-25
+L004,Linda Akinyi,Grade 9,Term 3,English,89.62,20-11-25
+L004,Linda Akinyi,Grade 9,Term 3,Kiswahili or Kenyan Sign Language,84.39,20-11-25
+L004,Linda Akinyi,Grade 9,Term 3,Mathematics,91.61,20-11-25
+L004,Linda Akinyi,Grade 9,Term 3,Integrated Science,95,20-11-25
+L004,Linda Akinyi,Grade 9,Term 3,Health Education,95,20-11-25
+L004,Linda Akinyi,Grade 9,Term 3,Social Studies,89.81,20-11-25
+L004,Linda Akinyi,Grade 9,Term 3,Religious Education,83.6,20-11-25
+L004,Linda Akinyi,Grade 9,Term 3,Pre-Technical and Pre-Career Education,93.15,20-11-25
+L004,Linda Akinyi,Grade 9,Term 3,Agriculture,89.51,20-11-25
+L004,Linda Akinyi,Grade 9,Term 3,Business Studies,86.45,20-11-25
+L004,Linda Akinyi,Grade 9,Term 3,Life Skills Education,83.8,20-11-25
+L004,Linda Akinyi,Grade 9,Term 3,Sports and Physical Education,93.45,20-11-25
+L005,Mary Chebet,Grade 7,Term 1,English,58.29,15-04-23
+L005,Mary Chebet,Grade 7,Term 1,Kiswahili or Kenyan Sign Language,58.33,15-04-23
+L005,Mary Chebet,Grade 7,Term 1,Mathematics,57.32,15-04-23
+L005,Mary Chebet,Grade 7,Term 1,Integrated Science,53.81,15-04-23
+L005,Mary Chebet,Grade 7,Term 1,Health Education,63.82,15-04-23
+L005,Mary Chebet,Grade 7,Term 1,Social Studies,57.38,15-04-23
+L005,Mary Chebet,Grade 7,Term 1,Religious Education,63.78,15-04-23
+L005,Mary Chebet,Grade 7,Term 1,Pre-Technical and Pre-Career Education,63.56,15-04-23
+L005,Mary Chebet,Grade 7,Term 1,Agriculture,51.43,15-04-23
+L005,Mary Chebet,Grade 7,Term 1,Business Studies,57.65,15-04-23
+L005,Mary Chebet,Grade 7,Term 1,Life Skills Education,49.13,15-04-23
+L005,Mary Chebet,Grade 7,Term 1,Sports and Physical Education,58.41,15-04-23
+L005,Mary Chebet,Grade 7,Term 2,English,69.81,15-08-23
+L005,Mary Chebet,Grade 7,Term 2,Kiswahili or Kenyan Sign Language,59.06,15-08-23
+L005,Mary Chebet,Grade 7,Term 2,Mathematics,63.08,15-08-23
+L005,Mary Chebet,Grade 7,Term 2,Integrated Science,59.72,15-08-23
+L005,Mary Chebet,Grade 7,Term 2,Health Education,63.5,15-08-23
+L005,Mary Chebet,Grade 7,Term 2,Social Studies,62.58,15-08-23
+L005,Mary Chebet,Grade 7,Term 2,Religious Education,66.95,15-08-23
+L005,Mary Chebet,Grade 7,Term 2,Pre-Technical and Pre-Career Education,57.46,15-08-23
+L005,Mary Chebet,Grade 7,Term 2,Agriculture,49.78,15-08-23
+L005,Mary Chebet,Grade 7,Term 2,Business Studies,59.34,15-08-23
+L005,Mary Chebet,Grade 7,Term 2,Life Skills Education,51.15,15-08-23
+L005,Mary Chebet,Grade 7,Term 2,Sports and Physical Education,60.67,15-08-23
+L005,Mary Chebet,Grade 7,Term 3,English,66.09,20-11-23
+L005,Mary Chebet,Grade 7,Term 3,Kiswahili or Kenyan Sign Language,58.65,20-11-23
+L005,Mary Chebet,Grade 7,Term 3,Mathematics,64.56,20-11-23
+L005,Mary Chebet,Grade 7,Term 3,Integrated Science,60.46,20-11-23
+L005,Mary Chebet,Grade 7,Term 3,Health Education,59.05,20-11-23
+L005,Mary Chebet,Grade 7,Term 3,Social Studies,62.04,20-11-23
+L005,Mary Chebet,Grade 7,Term 3,Religious Education,65.72,20-11-23
+L005,Mary Chebet,Grade 7,Term 3,Pre-Technical and Pre-Career Education,57.4,20-11-23
+L005,Mary Chebet,Grade 7,Term 3,Agriculture,59.46,20-11-23
+L005,Mary Chebet,Grade 7,Term 3,Business Studies,69.2,20-11-23
+L005,Mary Chebet,Grade 7,Term 3,Life Skills Education,51.8,20-11-23
+L005,Mary Chebet,Grade 7,Term 3,Sports and Physical Education,54.43,20-11-23
+L005,Mary Chebet,Grade 8,Term 1,English,64.39,15-04-24
+L005,Mary Chebet,Grade 8,Term 1,Kiswahili or Kenyan Sign Language,64.75,15-04-24
+L005,Mary Chebet,Grade 8,Term 1,Mathematics,68.34,15-04-24
+L005,Mary Chebet,Grade 8,Term 1,Integrated Science,57.3,15-04-24
+L005,Mary Chebet,Grade 8,Term 1,Health Education,65.95,15-04-24
+L005,Mary Chebet,Grade 8,Term 1,Social Studies,57.27,15-04-24
+L005,Mary Chebet,Grade 8,Term 1,Religious Education,66.08,15-04-24
+L005,Mary Chebet,Grade 8,Term 1,Pre-Technical and Pre-Career Education,63.9,15-04-24
+L005,Mary Chebet,Grade 8,Term 1,Agriculture,52.46,15-04-24
+L005,Mary Chebet,Grade 8,Term 1,Business Studies,68.01,15-04-24
+L005,Mary Chebet,Grade 8,Term 1,Life Skills Education,60.82,15-04-24
+L005,Mary Chebet,Grade 8,Term 1,Sports and Physical Education,61.59,15-04-24
+L005,Mary Chebet,Grade 8,Term 2,English,63.36,15-08-24
+L005,Mary Chebet,Grade 8,Term 2,Kiswahili or Kenyan Sign Language,69.17,15-08-24
+L005,Mary Chebet,Grade 8,Term 2,Mathematics,67.34,15-08-24
+L005,Mary Chebet,Grade 8,Term 2,Integrated Science,57.66,15-08-24
+L005,Mary Chebet,Grade 8,Term 2,Health Education,63.68,15-08-24
+L005,Mary Chebet,Grade 8,Term 2,Social Studies,61.58,15-08-24
+L005,Mary Chebet,Grade 8,Term 2,Religious Education,65.04,15-08-24
+L005,Mary Chebet,Grade 8,Term 2,Pre-Technical and Pre-Career Education,61.62,15-08-24
+L005,Mary Chebet,Grade 8,Term 2,Agriculture,61.57,15-08-24
+L005,Mary Chebet,Grade 8,Term 2,Business Studies,69.47,15-08-24
+L005,Mary Chebet,Grade 8,Term 2,Life Skills Education,53.47,15-08-24
+L005,Mary Chebet,Grade 8,Term 2,Sports and Physical Education,66.39,15-08-24
+L005,Mary Chebet,Grade 8,Term 3,English,70.1,20-11-24
+L005,Mary Chebet,Grade 8,Term 3,Kiswahili or Kenyan Sign Language,68.51,20-11-24
+L005,Mary Chebet,Grade 8,Term 3,Mathematics,67.44,20-11-24
+L005,Mary Chebet,Grade 8,Term 3,Integrated Science,59.54,20-11-24
+L005,Mary Chebet,Grade 8,Term 3,Health Education,67.91,20-11-24
+L005,Mary Chebet,Grade 8,Term 3,Social Studies,69.2,20-11-24
+L005,Mary Chebet,Grade 8,Term 3,Religious Education,63.43,20-11-24
+L005,Mary Chebet,Grade 8,Term 3,Pre-Technical and Pre-Career Education,67.62,20-11-24
+L005,Mary Chebet,Grade 8,Term 3,Agriculture,59.04,20-11-24
+L005,Mary Chebet,Grade 8,Term 3,Business Studies,66.67,20-11-24
+L005,Mary Chebet,Grade 8,Term 3,Life Skills Education,57.96,20-11-24
+L005,Mary Chebet,Grade 8,Term 3,Sports and Physical Education,64.7,20-11-24
+L005,Mary Chebet,Grade 9,Term 1,English,67.13,15-04-25
+L005,Mary Chebet,Grade 9,Term 1,Kiswahili or Kenyan Sign Language,69.81,15-04-25
+L005,Mary Chebet,Grade 9,Term 1,Mathematics,69.74,15-04-25
+L005,Mary Chebet,Grade 9,Term 1,Integrated Science,56.61,15-04-25
+L005,Mary Chebet,Grade 9,Term 1,Health Education,70.42,15-04-25
+L005,Mary Chebet,Grade 9,Term 1,Social Studies,62.33,15-04-25
+L005,Mary Chebet,Grade 9,Term 1,Religious Education,66.57,15-04-25
+L005,Mary Chebet,Grade 9,Term 1,Pre-Technical and Pre-Career Education,66.31,15-04-25
+L005,Mary Chebet,Grade 9,Term 1,Agriculture,58.18,15-04-25
+L005,Mary Chebet,Grade 9,Term 1,Business Studies,62.58,15-04-25
+L005,Mary Chebet,Grade 9,Term 1,Life Skills Education,63.38,15-04-25
+L005,Mary Chebet,Grade 9,Term 1,Sports and Physical Education,59.49,15-04-25
+L005,Mary Chebet,Grade 9,Term 2,English,67.59,15-08-25
+L005,Mary Chebet,Grade 9,Term 2,Kiswahili or Kenyan Sign Language,70.26,15-08-25
+L005,Mary Chebet,Grade 9,Term 2,Mathematics,65.28,15-08-25
+L005,Mary Chebet,Grade 9,Term 2,Integrated Science,66.24,15-08-25
+L005,Mary Chebet,Grade 9,Term 2,Health Education,69.31,15-08-25
+L005,Mary Chebet,Grade 9,Term 2,Social Studies,63.77,15-08-25
+L005,Mary Chebet,Grade 9,Term 2,Religious Education,62.56,15-08-25
+L005,Mary Chebet,Grade 9,Term 2,Pre-Technical and Pre-Career Education,70.89,15-08-25
+L005,Mary Chebet,Grade 9,Term 2,Agriculture,55.85,15-08-25
+L005,Mary Chebet,Grade 9,Term 2,Business Studies,71.11,15-08-25
+L005,Mary Chebet,Grade 9,Term 2,Life Skills Education,60.24,15-08-25
+L005,Mary Chebet,Grade 9,Term 2,Sports and Physical Education,66.67,15-08-25
+L005,Mary Chebet,Grade 9,Term 3,English,73.93,20-11-25
+L005,Mary Chebet,Grade 9,Term 3,Kiswahili or Kenyan Sign Language,69.64,20-11-25
+L005,Mary Chebet,Grade 9,Term 3,Mathematics,67.87,20-11-25
+L005,Mary Chebet,Grade 9,Term 3,Integrated Science,66.19,20-11-25
+L005,Mary Chebet,Grade 9,Term 3,Health Education,63.5,20-11-25
+L005,Mary Chebet,Grade 9,Term 3,Social Studies,64.24,20-11-25
+L005,Mary Chebet,Grade 9,Term 3,Religious Education,71.04,20-11-25
+L005,Mary Chebet,Grade 9,Term 3,Pre-Technical and Pre-Career Education,64.69,20-11-25
+L005,Mary Chebet,Grade 9,Term 3,Agriculture,62.2,20-11-25
+L005,Mary Chebet,Grade 9,Term 3,Business Studies,69.32,20-11-25
+L005,Mary Chebet,Grade 9,Term 3,Life Skills Education,61.56,20-11-25
+L005,Mary Chebet,Grade 9,Term 3,Sports and Physical Education,63.85,20-11-25
