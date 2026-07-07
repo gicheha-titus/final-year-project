@@ -56,7 +56,7 @@ select = [
     "BLE", # flake8-blind-except
     "PT",  # flake8-pytest-style
 ]
-ignore = ["E501"] # Line length handled by formatter
+ignore = ["E501", "N803", "N806", "C901"] # Line length handled by formatter, ignoring naming conventions for ML code and complexity
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

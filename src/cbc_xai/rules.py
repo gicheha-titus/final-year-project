@@ -27,7 +27,9 @@ def _clamp(score: float, minimum: float = 0.0, maximum: float = 100.0) -> float:
     return max(minimum, min(maximum, score))
 
 
-def track_score_from_summary(track: str, subject_summary: Mapping[str, Mapping[str, float]]) -> float:
+def track_score_from_summary(
+    track: str, subject_summary: Mapping[str, Mapping[str, float]]
+) -> float:
     """Compute a weighted readiness score for one track.
 
     The base score combines long-run mean (55%), recent mean (25%),
@@ -38,20 +40,16 @@ def track_score_from_summary(track: str, subject_summary: Mapping[str, Mapping[s
     """
     weights = TRACK_CONFIG[track]["weights"]
     weighted_mean = sum(
-        subject_summary[subject]["mean"] * weights.get(subject, 0.0)
-        for subject in SUBJECTS
+        subject_summary[subject]["mean"] * weights.get(subject, 0.0) for subject in SUBJECTS
     )
     weighted_recent = sum(
-        subject_summary[subject]["recent_mean"] * weights.get(subject, 0.0)
-        for subject in SUBJECTS
+        subject_summary[subject]["recent_mean"] * weights.get(subject, 0.0) for subject in SUBJECTS
     )
     weighted_trend = sum(
-        subject_summary[subject]["trend"] * weights.get(subject, 0.0)
-        for subject in SUBJECTS
+        subject_summary[subject]["trend"] * weights.get(subject, 0.0) for subject in SUBJECTS
     )
     weighted_consistency = sum(
-        subject_summary[subject]["consistency"] * weights.get(subject, 0.0)
-        for subject in SUBJECTS
+        subject_summary[subject]["consistency"] * weights.get(subject, 0.0) for subject in SUBJECTS
     )
 
     # Composite formula: stability and recent trajectory matter more than
@@ -75,10 +73,13 @@ def track_score_from_summary(track: str, subject_summary: Mapping[str, Mapping[s
             and subject_summary["Health Education"]["recent_mean"] > 65
         ):
             raw_score += 7.0
-        if min(
-            subject_summary["Mathematics"]["mean"],
-            subject_summary["Integrated Science"]["mean"],
-        ) < 52:
+        if (
+            min(
+                subject_summary["Mathematics"]["mean"],
+                subject_summary["Integrated Science"]["mean"],
+            )
+            < 52
+        ):
             raw_score -= 8.0
     elif track == "Applied Sciences":
         if (
@@ -146,10 +147,7 @@ def probability_distribution_from_scores(score_map: Mapping[str, float]) -> dict
     if not score_map:
         return {}
     baseline = max(score_map.values())
-    exponentials = {
-        label: math.exp((score - baseline) / 7.5)
-        for label, score in score_map.items()
-    }
+    exponentials = {label: math.exp((score - baseline) / 7.5) for label, score in score_map.items()}
     total = sum(exponentials.values()) or 1.0
     return {label: round(value / total, 6) for label, value in exponentials.items()}
 

@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import numpy as np
 import pandas as pd
 
 from cbc_xai.features import build_feature_matrix
@@ -20,7 +19,7 @@ def test_sparse_history_no_nans() -> None:
         }
     )
     matrix = build_feature_matrix(assessments)
-    
+
     assert not matrix.isnull().values.any()
     assert matrix.iloc[0]["mathematics_consistency"] == 0.0
     assert matrix.iloc[0]["mathematics_trend"] == 0.0
@@ -41,7 +40,7 @@ def test_missing_subject_no_nans() -> None:
         }
     )
     matrix = build_feature_matrix(assessments)
-    
+
     assert not matrix.isnull().values.any()
     assert matrix.iloc[0]["integrated_science_mean"] == 0.0
     assert matrix.iloc[0]["integrated_science_consistency"] == 100.0
@@ -61,7 +60,7 @@ def test_flat_scores_no_nans() -> None:
         }
     )
     matrix = build_feature_matrix(assessments)
-    
+
     assert not matrix.isnull().values.any()
     assert matrix.iloc[0]["mathematics_consistency"] == 0.0
     assert matrix.iloc[0]["mathematics_trend"] == 0.0

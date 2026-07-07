@@ -910,11 +910,14 @@ class MainWindow(QMainWindow):
         return keys
 
     def switch_account(self) -> None:
-        if QMessageBox.question(
-            self,
-            "Switch account",
-            "Do you want to sign out of the current account and return to the login screen?",
-        ) != QMessageBox.Yes:
+        if (
+            QMessageBox.question(
+                self,
+                "Switch account",
+                "Do you want to sign out of the current account and return to the login screen?",
+            )
+            != QMessageBox.Yes
+        ):
             return
         self._restart_session = True
         self.close()
@@ -962,7 +965,9 @@ class MainWindow(QMainWindow):
         title.setObjectName("sidebarHeadline")
         layout.addWidget(title)
 
-        caption = QLabel("Offline student pathway support with clear learner evidence and printable reports.")
+        caption = QLabel(
+            "Offline student pathway support with clear learner evidence and printable reports."
+        )
         caption.setObjectName("sidebarCaption")
         caption.setWordWrap(True)
         layout.addWidget(caption)
@@ -975,7 +980,9 @@ class MainWindow(QMainWindow):
             button = QPushButton(title_text)
             button.setCheckable(True)
             button.setObjectName("navButton")
-            button.clicked.connect(lambda checked=False, page_key=key: self.set_active_page(page_key))
+            button.clicked.connect(
+                lambda checked=False, page_key=key: self.set_active_page(page_key)
+            )
             group.addButton(button)
             layout.addWidget(button)
             self.nav_buttons[key] = button
@@ -1100,7 +1107,9 @@ class MainWindow(QMainWindow):
             "learners": StatCard("Learner Records", "Active learners in the local database."),
             "assessments": StatCard("Assessment Rows", "Validated rows currently stored."),
             "reports": StatCard("Stored Reports", "PDF reports generated and logged locally."),
-            "dominant": StatCard("Dominant Pathway", "Largest pathway share in the current cohort."),
+            "dominant": StatCard(
+                "Dominant Pathway", "Largest pathway share in the current cohort."
+            ),
         }
         positions = [
             ("learners", 0, 0),
@@ -1376,9 +1385,13 @@ class MainWindow(QMainWindow):
         stats_grid = QGridLayout()
         stats_grid.setHorizontalSpacing(16)
         self.cohort_stats = {
-            "cohort_size": StatCard("Cohort Size", "Learners currently available for cohort analytics."),
+            "cohort_size": StatCard(
+                "Cohort Size", "Learners currently available for cohort analytics."
+            ),
             "dominant": StatCard("Leading Pathway", "Largest share of the current cohort."),
-            "balance": StatCard("Pathway Spread", "Whether the cohort is concentrated or evenly distributed."),
+            "balance": StatCard(
+                "Pathway Spread", "Whether the cohort is concentrated or evenly distributed."
+            ),
         }
         for idx, key in enumerate(("cohort_size", "dominant", "balance")):
             stats_grid.addWidget(self.cohort_stats[key], 0, idx)
@@ -1584,9 +1597,13 @@ class MainWindow(QMainWindow):
         self.reset_password_button = QPushButton("Reset Password")
         self.reset_password_button.clicked.connect(self.reset_selected_teacher_password)
         self.deactivate_account_button = QPushButton("Deactivate Account")
-        self.deactivate_account_button.clicked.connect(lambda: self.change_selected_teacher_active_state(False))
+        self.deactivate_account_button.clicked.connect(
+            lambda: self.change_selected_teacher_active_state(False)
+        )
         self.reactivate_account_button = QPushButton("Reactivate Account")
-        self.reactivate_account_button.clicked.connect(lambda: self.change_selected_teacher_active_state(True))
+        self.reactivate_account_button.clicked.connect(
+            lambda: self.change_selected_teacher_active_state(True)
+        )
         self.delete_account_button = QPushButton("Delete Account")
         self.delete_account_button.clicked.connect(self.delete_selected_teacher_account)
         action_grid.addWidget(self.reset_password_button, 0, 0)
@@ -1742,7 +1759,9 @@ class MainWindow(QMainWindow):
 
     def create_teacher_account(self) -> None:
         if self.user.get("role") != "Admin":
-            QMessageBox.warning(self, "Access denied", "Only admin accounts can create additional teacher users.")
+            QMessageBox.warning(
+                self, "Access denied", "Only admin accounts can create additional teacher users."
+            )
             return
 
         username = self.account_username_input.text().strip()
@@ -1777,7 +1796,11 @@ class MainWindow(QMainWindow):
     def reset_selected_teacher_password(self) -> None:
         record = self.selected_user_record()
         if not record or record["role"] != "Teacher/Counsellor":
-            QMessageBox.information(self, "Select teacher account", "Select a teacher account before resetting a password.")
+            QMessageBox.information(
+                self,
+                "Select teacher account",
+                "Select a teacher account before resetting a password.",
+            )
             return
 
         password = self.manage_password_input.text()
@@ -1808,7 +1831,11 @@ class MainWindow(QMainWindow):
     def change_selected_teacher_active_state(self, is_active: bool) -> None:
         record = self.selected_user_record()
         if not record or record["role"] != "Teacher/Counsellor":
-            QMessageBox.information(self, "Select teacher account", "Select a teacher account before changing access status.")
+            QMessageBox.information(
+                self,
+                "Select teacher account",
+                "Select a teacher account before changing access status.",
+            )
             return
 
         current_active = bool(record["is_active"])
@@ -1821,11 +1848,14 @@ class MainWindow(QMainWindow):
             return
 
         action_label = "reactivate" if is_active else "deactivate"
-        if QMessageBox.question(
-            self,
-            "Confirm account change",
-            f"Do you want to {action_label} the account '{record['username']}'?",
-        ) != QMessageBox.Yes:
+        if (
+            QMessageBox.question(
+                self,
+                "Confirm account change",
+                f"Do you want to {action_label} the account '{record['username']}'?",
+            )
+            != QMessageBox.Yes
+        ):
             return
 
         try:
@@ -1845,14 +1875,19 @@ class MainWindow(QMainWindow):
     def delete_selected_teacher_account(self) -> None:
         record = self.selected_user_record()
         if not record or record["role"] != "Teacher/Counsellor":
-            QMessageBox.information(self, "Select teacher account", "Select a teacher account before deleting it.")
+            QMessageBox.information(
+                self, "Select teacher account", "Select a teacher account before deleting it."
+            )
             return
 
-        if QMessageBox.question(
-            self,
-            "Delete teacher account",
-            f"Delete the account '{record['username']}' permanently?\n\nThis cannot be undone.",
-        ) != QMessageBox.Yes:
+        if (
+            QMessageBox.question(
+                self,
+                "Delete teacher account",
+                f"Delete the account '{record['username']}' permanently?\n\nThis cannot be undone.",
+            )
+            != QMessageBox.Yes
+        ):
             return
 
         try:
@@ -1884,7 +1919,9 @@ class MainWindow(QMainWindow):
 
     def refresh_dashboard(self) -> None:
         assessment_count = len(self.all_assessments)
-        learner_count = self.all_assessments["learner_id"].nunique() if not self.all_assessments.empty else 0
+        learner_count = (
+            self.all_assessments["learner_id"].nunique() if not self.all_assessments.empty else 0
+        )
         self.dashboard_stats["learners"].set_content(
             str(learner_count),
             "Learners currently available for review and support.",
@@ -1900,18 +1937,30 @@ class MainWindow(QMainWindow):
         if self.cohort_counts:
             dominant = max(self.cohort_counts, key=self.cohort_counts.get)
             share = (self.cohort_counts[dominant] / sum(self.cohort_counts.values())) * 100
-            self.dashboard_stats["dominant"].set_content(dominant, f"{share:.1f}% of the current cohort.")
+            self.dashboard_stats["dominant"].set_content(
+                dominant, f"{share:.1f}% of the current cohort."
+            )
         else:
-            self.dashboard_stats["dominant"].set_content("No data", "Import learner records to generate a cohort view.")
+            self.dashboard_stats["dominant"].set_content(
+                "No data", "Import learner records to generate a cohort view."
+            )
 
     def refresh_import_summary(self) -> None:
         self.import_stats["rows"].set_content("-", "Preview a file to inspect the validated rows.")
-        self.import_stats["learners"].set_content("-", "Preview a file to count represented learners.")
-        self.import_stats["window"].set_content("-", "Preview a file to inspect the assessment window.")
+        self.import_stats["learners"].set_content(
+            "-", "Preview a file to count represented learners."
+        )
+        self.import_stats["window"].set_content(
+            "-", "Preview a file to inspect the assessment window."
+        )
 
     def populate_learner_selector(self, preserve_id: str | None = None) -> None:
         preserve_id = preserve_id or self.current_learner_id
-        query = self.learner_search_input.text().strip().lower() if hasattr(self, "learner_search_input") else ""
+        query = (
+            self.learner_search_input.text().strip().lower()
+            if hasattr(self, "learner_search_input")
+            else ""
+        )
         filtered = [
             learner
             for learner in self.learner_records
@@ -1928,7 +1977,11 @@ class MainWindow(QMainWindow):
                 learner["learner_id"],
             )
         if filtered:
-            target = preserve_id if any(item["learner_id"] == preserve_id for item in filtered) else filtered[0]["learner_id"]
+            target = (
+                preserve_id
+                if any(item["learner_id"] == preserve_id for item in filtered)
+                else filtered[0]["learner_id"]
+            )
             index = self.learner_combo.findData(target)
             if index >= 0:
                 self.learner_combo.setCurrentIndex(index)
@@ -1939,7 +1992,9 @@ class MainWindow(QMainWindow):
         return str(current) if current else None
 
     def select_import_file(self) -> None:
-        path, _ = QFileDialog.getOpenFileName(self, "Select Assessment CSV", "", "CSV Files (*.csv)")
+        path, _ = QFileDialog.getOpenFileName(
+            self, "Select Assessment CSV", "", "CSV Files (*.csv)"
+        )
         if path:
             self.import_path_input.setText(path)
             self.preview_import_file()
@@ -1985,7 +2040,9 @@ class MainWindow(QMainWindow):
             frame.head(10),
             ["learner_id", "learner_name", "grade", "term", "subject", "score", "assessment_date"],
         )
-        self.import_stats["rows"].set_content(f"{len(frame):,}", "Validated rows now ready for import.")
+        self.import_stats["rows"].set_content(
+            f"{len(frame):,}", "Validated rows now ready for import."
+        )
         self.import_stats["learners"].set_content(
             str(frame["learner_id"].nunique()),
             "Unique learners represented in this file.",
@@ -2107,7 +2164,9 @@ class MainWindow(QMainWindow):
             if 0.0 <= prediction.top_track_score <= 1.0
             else f"{prediction.top_track_score:.2f}"
         )
-        self._set_hero_metric(self.learner_name_value, f"{prediction.learner_name} ({prediction.learner_id})")
+        self._set_hero_metric(
+            self.learner_name_value, f"{prediction.learner_name} ({prediction.learner_id})"
+        )
         self._set_hero_metric(self.learner_pathway_value, prediction.predicted_pathway)
         self._set_hero_metric(self.learner_track_value, prediction.predicted_track)
         self._set_hero_metric(self.learner_score_value, score_text)
@@ -2123,7 +2182,11 @@ class MainWindow(QMainWindow):
             PATHWAY_COLORS,
             lambda label, value: f"{readiness_band(value)} pathway readiness",
         )
-        top_tracks = dict(sorted(prediction.track_probabilities.items(), key=lambda item: item[1], reverse=True)[:4])
+        top_tracks = dict(
+            sorted(prediction.track_probabilities.items(), key=lambda item: item[1], reverse=True)[
+                :4
+            ]
+        )
         self.populate_probability_group(
             self.track_probabilities_layout,
             top_tracks,
@@ -2131,11 +2194,19 @@ class MainWindow(QMainWindow):
             lambda label, value: f"{readiness_band(value)} track readiness for {label}",
         )
         self.strengths_browser.setHtml(self._factor_html(prediction.strengths, positive=True))
-        self.limiting_browser.setHtml(self._factor_html(prediction.limiting_factors, positive=False))
+        self.limiting_browser.setHtml(
+            self._factor_html(prediction.limiting_factors, positive=False)
+        )
         self.guidance_browser.setHtml(self._guidance_html(prediction))
         self.populate_subject_table(subject_summary, prediction)
 
-    def populate_probability_group(self, layout: QVBoxLayout, probabilities: dict[str, float], color_map: dict[str, str], note_builder) -> None:
+    def populate_probability_group(
+        self,
+        layout: QVBoxLayout,
+        probabilities: dict[str, float],
+        color_map: dict[str, str],
+        note_builder,
+    ) -> None:
         clear_layout(layout)
         if not probabilities:
             placeholder = QLabel("No readiness data available yet.")
@@ -2148,10 +2219,14 @@ class MainWindow(QMainWindow):
             layout.addWidget(bar)
         layout.addStretch(1)
 
-    def populate_subject_table(self, subject_summary: dict[str, dict[str, float]], prediction: PredictionOutput) -> None:
+    def populate_subject_table(
+        self, subject_summary: dict[str, dict[str, float]], prediction: PredictionOutput
+    ) -> None:
         strengths = {item["subject"] for item in prediction.strengths}
         limits = {item["subject"] for item in prediction.limiting_factors}
-        ordered_subjects = sorted(subject_summary.items(), key=lambda item: item[1]["recent_mean"], reverse=True)
+        ordered_subjects = sorted(
+            subject_summary.items(), key=lambda item: item[1]["recent_mean"], reverse=True
+        )
         self.subject_table.setRowCount(len(ordered_subjects))
         for row, (subject, stats) in enumerate(ordered_subjects):
             trend_text, trend_color = trend_label(stats["trend"])
@@ -2178,10 +2253,13 @@ class MainWindow(QMainWindow):
     def _factor_html(self, factors: list[dict[str, float | str]], *, positive: bool) -> str:
         if not factors:
             return "<p>No clear subject signals were identified for this category yet.</p>"
-        tone = "is currently supporting this recommendation." if positive else "may need more support before readiness becomes stronger."
+        tone = (
+            "is currently supporting this recommendation."
+            if positive
+            else "may need more support before readiness becomes stronger."
+        )
         items = "".join(
-            f"<li><b>{escape(str(item['subject']))}</b> {tone}</li>"
-            for item in factors
+            f"<li><b>{escape(str(item['subject']))}</b> {tone}</li>" for item in factors
         )
         return f"<ul>{items}</ul>"
 
@@ -2197,9 +2275,15 @@ class MainWindow(QMainWindow):
             self.cohort_counts = Counter()
             self.cohort_canvas.render_counts(self.cohort_counts)
             self.cohort_page_canvas.render_counts(self.cohort_counts)
-            self.cohort_stats["cohort_size"].set_content("0", "Import learner assessment data to activate cohort analytics.")
-            self.cohort_stats["dominant"].set_content("No data", "No pathway prediction is available until records are present.")
-            self.cohort_stats["balance"].set_content("N/A", "No cohort spread can be calculated yet.")
+            self.cohort_stats["cohort_size"].set_content(
+                "0", "Import learner assessment data to activate cohort analytics."
+            )
+            self.cohort_stats["dominant"].set_content(
+                "No data", "No pathway prediction is available until records are present."
+            )
+            self.cohort_stats["balance"].set_content(
+                "N/A", "No cohort spread can be calculated yet."
+            )
             clear_layout(self.dashboard_pathway_breakdown)
             clear_layout(self.cohort_breakdown_layout)
             self.dashboard_narrative.setHtml("<p>No cohort data is available yet.</p>")
@@ -2207,7 +2291,9 @@ class MainWindow(QMainWindow):
             return
 
         feature_frame = build_feature_matrix(self.all_assessments)
-        predicted_tracks = self.bundle["model"].predict(feature_frame[self.bundle["feature_columns"]])
+        predicted_tracks = self.bundle["model"].predict(
+            feature_frame[self.bundle["feature_columns"]]
+        )
         counts = Counter(pathway_from_track(track) for track in predicted_tracks)
         self.cohort_counts = counts
         total = sum(counts.values())
@@ -2219,10 +2305,18 @@ class MainWindow(QMainWindow):
         spread = max(counts.values()) - min(counts.values())
         spread_label = "Balanced" if spread <= max(4, total * 0.08) else "Concentrated"
 
-        self.dashboard_stats["dominant"].set_content(dominant, f"{dominant_share:.1f}% of the current cohort.")
-        self.cohort_stats["cohort_size"].set_content(str(total), "Learners currently represented in cohort analytics.")
-        self.cohort_stats["dominant"].set_content(dominant, f"{dominant_share:.1f}% of learners lean toward this pathway.")
-        self.cohort_stats["balance"].set_content(spread_label, f"Difference between the highest and lowest pathway counts: {spread}.")
+        self.dashboard_stats["dominant"].set_content(
+            dominant, f"{dominant_share:.1f}% of the current cohort."
+        )
+        self.cohort_stats["cohort_size"].set_content(
+            str(total), "Learners currently represented in cohort analytics."
+        )
+        self.cohort_stats["dominant"].set_content(
+            dominant, f"{dominant_share:.1f}% of learners lean toward this pathway."
+        )
+        self.cohort_stats["balance"].set_content(
+            spread_label, f"Difference between the highest and lowest pathway counts: {spread}."
+        )
         self.populate_pathway_breakdown(self.dashboard_pathway_breakdown, counts)
         self.populate_pathway_breakdown(self.cohort_breakdown_layout, counts)
         narrative = self._cohort_narrative_html(counts)
@@ -2237,7 +2331,9 @@ class MainWindow(QMainWindow):
                 continue
             share = counts[pathway] / total
             bar = ProbabilityBar(PATHWAY_COLORS[pathway])
-            bar.set_content(pathway, share, f"{counts[pathway]} learners | {share * 100:.1f}% of the cohort")
+            bar.set_content(
+                pathway, share, f"{counts[pathway]} learners | {share * 100:.1f}% of the cohort"
+            )
             layout.addWidget(bar)
         layout.addStretch(1)
 
@@ -2254,24 +2350,40 @@ class MainWindow(QMainWindow):
 
     def refresh_report_center(self) -> None:
         if not self.current_prediction:
-            for widget in (self.report_current_learner, self.report_current_pathway, self.report_current_track):
+            for widget in (
+                self.report_current_learner,
+                self.report_current_pathway,
+                self.report_current_track,
+            ):
                 self._set_hero_metric(widget, "-")
-            self.report_preview_browser.setHtml("<p>Select a learner in the workspace to prepare a report.</p>")
+            self.report_preview_browser.setHtml(
+                "<p>Select a learner in the workspace to prepare a report.</p>"
+            )
             self.report_meta_browser.setHtml("<p>No report-ready learner is currently loaded.</p>")
-            set_banner_state(self.report_status_banner, "Select a learner in the workspace to prepare the report center.", "info")
+            set_banner_state(
+                self.report_status_banner,
+                "Select a learner in the workspace to prepare the report center.",
+                "info",
+            )
             return
 
         prediction = self.current_prediction
-        self._set_hero_metric(self.report_current_learner, f"{prediction.learner_name} ({prediction.learner_id})")
+        self._set_hero_metric(
+            self.report_current_learner, f"{prediction.learner_name} ({prediction.learner_id})"
+        )
         self._set_hero_metric(self.report_current_pathway, prediction.predicted_pathway)
         self._set_hero_metric(self.report_current_track, prediction.predicted_track)
         pathway_items = "".join(
             f"<li>{escape(label)}: {value * 100:.1f}%</li>"
-            for label, value in sorted(prediction.pathway_probabilities.items(), key=lambda item: item[1], reverse=True)
+            for label, value in sorted(
+                prediction.pathway_probabilities.items(), key=lambda item: item[1], reverse=True
+            )
         )
         track_items = "".join(
             f"<li>{escape(label)}: {value * 100:.1f}%</li>"
-            for label, value in sorted(prediction.track_probabilities.items(), key=lambda item: item[1], reverse=True)[:4]
+            for label, value in sorted(
+                prediction.track_probabilities.items(), key=lambda item: item[1], reverse=True
+            )[:4]
         )
         notes = "".join(f"<li>{escape(note)}</li>" for note in prediction.guidance_notes)
         preview_score_text = (
@@ -2316,7 +2428,11 @@ class MainWindow(QMainWindow):
         self.refresh_dashboard()
         log.info("Report exported to %s", path)
         self.statusBar().showMessage(f"Report exported to {path}")
-        QMessageBox.information(self, "Report Exported", f"The learner report was exported successfully.\n\nSaved to:\n{path}")
+        QMessageBox.information(
+            self,
+            "Report Exported",
+            f"The learner report was exported successfully.\n\nSaved to:\n{path}",
+        )
 
     def populate_table(self, table: QTableWidget, frame: pd.DataFrame, columns: list[str]) -> None:
         """Fill a QTableWidget from a DataFrame, centering numeric columns."""
@@ -2338,6 +2454,7 @@ def main() -> None:
     prevents Qt from exiting when the login dialog closes.
     """
     from .config import APP_LOG_PATH
+
     configure_logging(APP_LOG_PATH)
     ensure_seed_data()
     application = QApplication([])

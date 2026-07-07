@@ -59,7 +59,7 @@ READINESS_BANDS: list[tuple[float, str]] = [
     (0.75, "Very strong"),
     (0.55, "Strong"),
     (0.40, "Developing"),
-    (0.0,  "Watch closely"),
+    (0.0, "Watch closely"),
 ]
 
 

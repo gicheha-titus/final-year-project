@@ -11,7 +11,7 @@ def test_missing_columns_returns_error_list() -> None:
     frame = pd.DataFrame({"learner_id": ["L001"], "score": [50]})
     with pytest.raises(IngestionError) as exc_info:
         validate_assessment_frame(frame)
-    
+
     assert "Missing required columns" in str(exc_info.value)
     assert len(exc_info.value.row_errors) == 1
     assert "grade" in exc_info.value.row_errors[0]
@@ -31,7 +31,7 @@ def test_bad_scores_in_multiple_rows_returns_all_errors() -> None:
     )
     with pytest.raises(IngestionError) as exc_info:
         validate_assessment_frame(frame)
-    
+
     errors = exc_info.value.row_errors
     assert len(errors) == 3
     assert "score 105.0 is outside" in errors[0]
@@ -53,7 +53,7 @@ def test_bad_subject_names_reported_per_row() -> None:
     )
     with pytest.raises(IngestionError) as exc_info:
         validate_assessment_frame(frame)
-    
+
     assert "unrecognised subject 'Maths (Typo)'" in exc_info.value.row_errors[0]
 
 
@@ -71,7 +71,7 @@ def test_mixed_valid_invalid_rows_returns_all_errors() -> None:
     )
     with pytest.raises(IngestionError) as exc_info:
         validate_assessment_frame(frame)
-    
+
     errors = exc_info.value.row_errors
     assert len(errors) == 2
     assert "unrecognised subject" in errors[0]

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from cbc_xai.features import build_feature_matrix, feature_columns
 from cbc_xai import modeling
+from cbc_xai.features import build_feature_matrix, feature_columns
 from cbc_xai.modeling import predict_for_learner, train_and_select_model
 from cbc_xai.reporting import generate_pdf_report
 from cbc_xai.synthetic_data import generate_synthetic_assessments

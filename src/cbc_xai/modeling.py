@@ -111,6 +111,7 @@ class PredictionOutput:
 # Internal helpers
 # ---------------------------------------------------------------------------
 
+
 def _serialized_model_size_bytes(model: Any) -> int:
     """Measure the serialised size of a model without writing to disk.
 
@@ -156,6 +157,7 @@ def _dataset_fingerprint(feature_frame: pd.DataFrame) -> str:
 # ---------------------------------------------------------------------------
 # Dataset and model training
 # ---------------------------------------------------------------------------
+
 
 def _build_dataset(learner_count: int = 240) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Generate synthetic data, build features, and derive labels.
@@ -361,7 +363,11 @@ def train_and_select_model(learner_count: int = 240) -> dict[str, Any]:
 
     # Holdout split for final evaluation and SHAP background data.
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.25, random_state=42, stratify=y,
+        X,
+        y,
+        test_size=0.25,
+        random_state=42,
+        stratify=y,
     )
 
     candidates = _candidate_models(numeric_columns)
@@ -381,7 +387,8 @@ def train_and_select_model(learner_count: int = 240) -> dict[str, Any]:
     best_cv = max(cv_results, key=lambda r: r["cv_f1_macro_mean"])
     selected_cv = next(
         (
-            r for r in cv_results
+            r
+            for r in cv_results
             if r["model_name"] == "RandomForestClassifier"
             and r["cv_f1_macro_mean"] >= best_cv["cv_f1_macro_mean"] - 0.02
         ),
@@ -430,7 +437,9 @@ def train_and_select_model(learner_count: int = 240) -> dict[str, Any]:
         "bundle": bundle,
         "assessments": assessments,
         "dataset": dataset,
-        "assessment_export_path": dataset.attrs.get("assessment_export_path", str(SYNTHETIC_ASSESSMENTS_CSV)),
+        "assessment_export_path": dataset.attrs.get(
+            "assessment_export_path", str(SYNTHETIC_ASSESSMENTS_CSV)
+        ),
     }
 
 
@@ -456,6 +465,7 @@ def load_model_bundle() -> dict[str, Any]:
 # ---------------------------------------------------------------------------
 # SHAP explanation helpers
 # ---------------------------------------------------------------------------
+
 
 def _subject_shap_values(shap_row: np.ndarray, columns: list[str]) -> dict[str, float]:
     """Aggregate per-feature SHAP values into per-subject totals.
@@ -525,6 +535,7 @@ def _prediction_shap_row(
 # Public prediction API
 # ---------------------------------------------------------------------------
 
+
 def predict_for_learner(
     learner_assessments: pd.DataFrame,
     bundle: dict[str, Any] | None = None,
@@ -567,11 +578,15 @@ def predict_for_learner(
     except ModelError:
         raise
     except Exception as exc:
-        raise ModelError(f"Prediction failed for learner '{learner_assessments.iloc[0].get('learner_id', '?')}': {exc}") from exc
+        raise ModelError(
+            f"Prediction failed for learner '{learner_assessments.iloc[0].get('learner_id', '?')}': {exc}"
+        ) from exc
 
     strengths = [
         {"subject": subject, "contribution": round(value, 4)}
-        for subject, value in sorted(subject_importance.items(), key=lambda item: item[1], reverse=True)
+        for subject, value in sorted(
+            subject_importance.items(), key=lambda item: item[1], reverse=True
+        )
         if value > 0
     ][:3]
     limiting_factors = [
@@ -592,5 +607,7 @@ def predict_for_learner(
         guidance_notes=build_guidance_notes(subject_summary, predicted_pathway),
         strengths=strengths,
         limiting_factors=limiting_factors,
-        feature_importance={subject: round(value, 4) for subject, value in subject_importance.items()},
+        feature_importance={
+            subject: round(value, 4) for subject, value in subject_importance.items()
+        },
     )

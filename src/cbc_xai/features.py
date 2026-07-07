@@ -76,9 +76,7 @@ def build_subject_summary(learner_frame: pd.DataFrame) -> dict[str, dict[str, fl
     summary: dict[str, dict[str, float]] = {}
     ordered = ordered_assessments(learner_frame)
     for subject in SUBJECTS:
-        subject_scores = (
-            ordered.loc[ordered["subject"] == subject, "score"].astype(float).tolist()
-        )
+        subject_scores = ordered.loc[ordered["subject"] == subject, "score"].astype(float).tolist()
         summary[subject] = _subject_stats(subject_scores)
     return summary
 

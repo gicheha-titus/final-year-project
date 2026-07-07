@@ -63,9 +63,7 @@ def validate_assessment_frame(frame: pd.DataFrame) -> pd.DataFrame:
     # Attempt score and date coercion — failures become NaN / NaT so
     # we can continue collecting errors rather than raising immediately.
     cleaned["score"] = pd.to_numeric(cleaned["score"], errors="coerce")
-    cleaned["assessment_date"] = pd.to_datetime(
-        cleaned["assessment_date"], errors="coerce"
-    ).dt.date
+    cleaned["assessment_date"] = pd.to_datetime(cleaned["assessment_date"], errors="coerce").dt.date
 
     # --- Row-level validation (collect all problems) ---
     errors: list[str] = []

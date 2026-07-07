@@ -5,7 +5,6 @@ from pathlib import Path
 
 import pytest
 
-
 ROOT_DIR = Path(__file__).resolve().parents[1]
 for candidate in (ROOT_DIR / "vendor", ROOT_DIR / "src"):
     if candidate.exists() and str(candidate) not in sys.path:
@@ -32,7 +31,9 @@ def isolate_generated_artifacts(tmp_path: Path, monkeypatch: pytest.MonkeyPatch)
     monkeypatch.setattr(config, "CHARTS_DIR", charts_dir)
     monkeypatch.setattr(config, "MODELS_DIR", models_dir)
     monkeypatch.setattr(config, "REPORTS_DIR", reports_dir)
-    monkeypatch.setattr(config, "SYNTHETIC_ASSESSMENTS_CSV", data_dir / "synthetic_cbc_assessments.csv")
+    monkeypatch.setattr(
+        config, "SYNTHETIC_ASSESSMENTS_CSV", data_dir / "synthetic_cbc_assessments.csv"
+    )
     monkeypatch.setattr(config, "MODEL_BUNDLE_PATH", models_dir / "selected_model_bundle.joblib")
     monkeypatch.setattr(config, "METRICS_JSON_PATH", models_dir / "model_metrics.json")
     monkeypatch.setattr(config, "DATABASE_PATH", artifacts_dir / "cbc_xai.db")

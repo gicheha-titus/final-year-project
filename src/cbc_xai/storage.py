@@ -58,8 +58,8 @@ try:
     from argon2.exceptions import InvalidHashError, VerificationError, VerifyMismatchError
 
     _ph = PasswordHasher(
-        time_cost=2,       # number of iterations
-        memory_cost=65536, # 64 MB — reasonable on 4 GB machines
+        time_cost=2,  # number of iterations
+        memory_cost=65536,  # 64 MB — reasonable on 4 GB machines
         parallelism=2,
         hash_len=32,
         salt_len=16,
@@ -119,6 +119,7 @@ def _verify_password(password: str, stored_hash: str) -> bool:
         # would be ideal but the sha256 lookup itself is already deterministic —
         # the important thing is we don't leak timing info about hash length.
         import hmac
+
         return hmac.compare_digest(stored_hash, _sha256_hash(password))
 
     try:
@@ -144,6 +145,7 @@ def _needs_rehash(stored_hash: str) -> bool:
 # ---------------------------------------------------------------------------
 # Database connection
 # ---------------------------------------------------------------------------
+
 
 def get_connection(database_path: str | Path | None = None) -> sqlite3.Connection:
     """Open (or create) the SQLite database and return a connection.
@@ -171,6 +173,7 @@ def get_connection(database_path: str | Path | None = None) -> sqlite3.Connectio
 # ---------------------------------------------------------------------------
 # Schema initialisation
 # ---------------------------------------------------------------------------
+
 
 def initialize_database(database_path: str | Path | None = None) -> None:
     """Create all tables if they do not exist and seed default accounts.
@@ -242,13 +245,10 @@ def initialize_database(database_path: str | Path | None = None) -> None:
         # Forward-compatible migration: add is_active if upgrading from
         # an older schema that lacked the column.
         user_columns = {
-            row["name"]
-            for row in connection.execute("PRAGMA table_info(users)").fetchall()
+            row["name"] for row in connection.execute("PRAGMA table_info(users)").fetchall()
         }
         if "is_active" not in user_columns:
-            cursor.execute(
-                "ALTER TABLE users ADD COLUMN is_active INTEGER NOT NULL DEFAULT 1"
-            )
+            cursor.execute("ALTER TABLE users ADD COLUMN is_active INTEGER NOT NULL DEFAULT 1")
         cursor.execute("UPDATE users SET is_active = 1 WHERE is_active IS NULL")
 
         # Seed default accounts so the app is usable immediately in an
@@ -275,6 +275,7 @@ def initialize_database(database_path: str | Path | None = None) -> None:
 # ---------------------------------------------------------------------------
 # User management
 # ---------------------------------------------------------------------------
+
 
 def _count_active_admins(connection: sqlite3.Connection) -> int:
     """Return the number of active Admin accounts in the given connection."""
@@ -474,6 +475,7 @@ def delete_user(username: str) -> None:
 # Database backup
 # ---------------------------------------------------------------------------
 
+
 def backup_database(destination_dir: Path | None = None) -> Path:
     """Copy the live database to a timestamped backup file.
 
@@ -503,6 +505,7 @@ def backup_database(destination_dir: Path | None = None) -> Path:
 # Assessment data import and retrieval
 # ---------------------------------------------------------------------------
 
+
 def import_assessment_frame(frame: pd.DataFrame) -> int:
     """Validate and import a DataFrame of assessment rows into the database.
 
@@ -527,14 +530,16 @@ def import_assessment_frame(frame: pd.DataFrame) -> int:
                 learner_id, grade, term, subject, score, assessment_date
             ) VALUES (?, ?, ?, ?, ?, ?)
             """,
-            cleaned[[
-                "learner_id",
-                "grade",
-                "term",
-                "subject",
-                "score",
-                "assessment_date",
-            ]].itertuples(index=False, name=None),
+            cleaned[
+                [
+                    "learner_id",
+                    "grade",
+                    "term",
+                    "subject",
+                    "score",
+                    "assessment_date",
+                ]
+            ].itertuples(index=False, name=None),
         )
         connection.commit()
     log.info("Imported %d assessment rows.", len(cleaned))
@@ -565,10 +570,7 @@ def load_learners() -> list[dict[str, str]]:
             ORDER BY learner_id
             """
         ).fetchall()
-    return [
-        {"learner_id": row["learner_id"], "learner_name": row["learner_name"]}
-        for row in rows
-    ]
+    return [{"learner_id": row["learner_id"], "learner_name": row["learner_name"]} for row in rows]
 
 
 def load_assessments_for_learner(learner_id: str) -> pd.DataFrame:
@@ -590,6 +592,7 @@ def load_assessments_for_learner(learner_id: str) -> pd.DataFrame:
 # ---------------------------------------------------------------------------
 # Prediction and explanation persistence
 # ---------------------------------------------------------------------------
+
 
 def save_prediction(
     learner_id: str,
@@ -648,6 +651,7 @@ def save_prediction(
 # Report audit log
 # ---------------------------------------------------------------------------
 
+
 def save_report_record(learner_id: str, report_path: str | Path) -> None:
     """Log a generated PDF report in the audit table."""
     with get_connection() as connection:
@@ -661,9 +665,7 @@ def save_report_record(learner_id: str, report_path: str | Path) -> None:
 def count_reports() -> int:
     """Return the total number of reports in the audit log."""
     with get_connection() as connection:
-        row = connection.execute(
-            "SELECT COUNT(*) AS report_count FROM reports"
-        ).fetchone()
+        row = connection.execute("SELECT COUNT(*) AS report_count FROM reports").fetchone()
     return int(row["report_count"]) if row else 0
 
 

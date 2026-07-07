@@ -35,7 +35,9 @@ def _probability_table_rows(probabilities: dict[str, float]) -> list[list[str]]:
     rows.extend(
         [
             [label, f"{value * 100:.1f}%", readiness_band(value)]
-            for label, value in sorted(probabilities.items(), key=lambda item: item[1], reverse=True)
+            for label, value in sorted(
+                probabilities.items(), key=lambda item: item[1], reverse=True
+            )
         ]
     )
     return rows
@@ -73,7 +75,9 @@ def generate_pdf_report(prediction: PredictionOutput) -> Path:
             Paragraph("Pathway Readiness", styles["Heading2"]),
         ]
 
-        pathway_table = Table(_probability_table_rows(prediction.pathway_probabilities), hAlign="LEFT")
+        pathway_table = Table(
+            _probability_table_rows(prediction.pathway_probabilities), hAlign="LEFT"
+        )
         pathway_table.setStyle(
             TableStyle(
                 [
@@ -83,7 +87,9 @@ def generate_pdf_report(prediction: PredictionOutput) -> Path:
                 ]
             )
         )
-        story.extend([pathway_table, Spacer(1, 12), Paragraph("Track Readiness", styles["Heading2"])])
+        story.extend(
+            [pathway_table, Spacer(1, 12), Paragraph("Track Readiness", styles["Heading2"])]
+        )
 
         track_table = Table(_probability_table_rows(prediction.track_probabilities), hAlign="LEFT")
         track_table.setStyle(
@@ -95,28 +101,39 @@ def generate_pdf_report(prediction: PredictionOutput) -> Path:
                 ]
             )
         )
-        story.extend([track_table, Spacer(1, 12), Paragraph("Supporting Factors", styles["Heading2"])])
+        story.extend(
+            [track_table, Spacer(1, 12), Paragraph("Supporting Factors", styles["Heading2"])]
+        )
 
         for item in prediction.strengths:
-            story.append(Paragraph(f"- {item['subject']}: currently supporting this recommendation.", styles["Normal"]))
+            story.append(
+                Paragraph(
+                    f"- {item['subject']}: currently supporting this recommendation.",
+                    styles["Normal"],
+                )
+            )
         story.extend([Spacer(1, 8), Paragraph("Watch Areas", styles["Heading2"])])
         for item in prediction.limiting_factors:
-            story.append(Paragraph(f"- {item['subject']}: may need additional support.", styles["Normal"]))
+            story.append(
+                Paragraph(f"- {item['subject']}: may need additional support.", styles["Normal"])
+            )
         story.extend([Spacer(1, 8), Paragraph("Guidance Notes", styles["Heading2"])])
         for note in prediction.guidance_notes:
             story.append(Paragraph(f"- {note}", styles["Normal"]))
 
         # Advisory disclaimer — this framing is a research requirement, not decoration.
-        story.extend([
-            Spacer(1, 20),
-            Paragraph(
-                "<b>Important:</b> This report is a decision-support tool for teacher–parent "
-                "guidance conversations. It is not an automated placement decision. "
-                "Recommendations are based on assessment patterns from this system and "
-                "should be considered alongside teacher judgment and learner context.",
-                styles["Normal"],
-            ),
-        ])
+        story.extend(
+            [
+                Spacer(1, 20),
+                Paragraph(
+                    "<b>Important:</b> This report is a decision-support tool for teacher–parent "
+                    "guidance conversations. It is not an automated placement decision. "
+                    "Recommendations are based on assessment patterns from this system and "
+                    "should be considered alongside teacher judgment and learner context.",
+                    styles["Normal"],
+                ),
+            ]
+        )
 
         document.build(story)
     except Exception as exc:
